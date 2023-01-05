@@ -1,6 +1,6 @@
 // import { gsap } from 'gsap';
 
-// import { ScrollToPlugin } from 'gsap/ScrollToPlugin.js';
+// import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 // gsap.registerPlugin(ScrollToPlugin);
 
 // global.gsap = gsap;
@@ -9,14 +9,16 @@
 // 	overwrite: 'auto',
 // });
 
-class ProjectApp {
+class GSAP {
 	constructor() {
 		this.env = require('./utils/env').default;
 		this.utils = require('./utils/utils').default;
 		this.classes = {
 			// Signal: require('./classes/Signal').default,
 		};
-		this.components = {};
+		this.components = {
+			BasicTween: require('../../includes/basic-tween/basic-tween'),
+		};
 		this.helpers = {};
 		this.modules = {};
 		document.addEventListener('DOMContentLoaded', () => {
@@ -25,7 +27,7 @@ class ProjectApp {
 	}
 }
 
-global.ProjectApp = new ProjectApp();
+global.GSAP = new GSAP();
 
 if (module.hot) {
 	module.hot.accept();

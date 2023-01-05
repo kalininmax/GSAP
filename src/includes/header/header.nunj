@@ -2,6 +2,10 @@
 
 <div class="header">
 	<div class="container">
-		{{ menu() }}
+		<nav>
+			<ul>
+				<li><a href="/basic-tween.html">Basic Tween</a></li>
+			</ul>
+		</nav>
 	</div>
 </div>

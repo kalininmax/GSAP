@@ -89,3 +89,9 @@
 	overflow-y: auto;
 	-webkit-overflow-scrolling: touch;
 }
+
+.code {
+	font-family: monospace;
+	white-space: pre-wrap;
+	tab-size: 2ch;
+}

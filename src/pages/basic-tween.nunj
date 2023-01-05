@@ -1,0 +1,7 @@
+{% extends "../templates/base.nunj" %}
+
+{% block title %}Basic Tween | {{ super() }}{% endblock title %}
+
+{% block content %}
+	{% include "../includes/basic-tween/basic-tween.nunj" %}
+{% endblock %}

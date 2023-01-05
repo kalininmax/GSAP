@@ -1,0 +1,206 @@
+<div class="basic-tween">
+	<div class="basic-tween__item">
+		<p class="basic-tween__name">gsap.to()</p>
+		<p class="basic-tween__code code">
+			gsap.to('.basic-tween__img._fred._to', {
+				x: 220,
+				rotate: 360,
+				duration: 1.5,
+				paused: true,
+			})
+		</p>
+		<div class="basic-tween__stage">
+			<div class="basic-tween__controls">
+				<button class="basic-tween__button _play" type="button">Play</button>
+				<button class="basic-tween__button _pause" type="button">Pause</button>
+				<button class="basic-tween__button _stop" type="button">Stop</button>
+				<button class="basic-tween__button _restart" type="button">Restart</button>
+			</div>
+			<img class="basic-tween__img _fred _to" src="/assets/images/basic-tween/fred.svg" alt="">
+		</div>
+	</div>
+
+	<div class="basic-tween__item">
+		<p class="basic-tween__name">gsap.from()</p>
+		<p class="basic-tween__code code">
+			gsap.from('.basic-tween__img._fred._from', {
+				x: 220,
+				rotate: 360,
+				duration: 1.5,
+				paused: true,
+			})
+		</p>
+		<div class="basic-tween__stage">
+			<div class="basic-tween__controls">
+				<button class="basic-tween__button _play" type="button">Play</button>
+				<button class="basic-tween__button _pause" type="button">Pause</button>
+				<button class="basic-tween__button _stop" type="button">Stop</button>
+				<button class="basic-tween__button _restart" type="button">Restart</button>
+			</div>
+			<img class="basic-tween__img _fred _from" src="/assets/images/basic-tween/fred.svg" alt="">
+		</div>
+	</div>
+
+	<div class="basic-tween__item">
+		<p class="basic-tween__name">gsap.fromTo()</p>
+		<p class="basic-tween__code code">
+			gsap.fromTo(
+				'.basic-tween__img._fred._from-to',
+				{
+					x: 220,
+					rotate: 360,
+				},
+				{
+					x: 20,
+					rotate: 0,
+					duration: 1.5,
+					paused: true,
+				}
+			)
+		</p>
+		<div class="basic-tween__stage">
+			<div class="basic-tween__controls">
+				<button class="basic-tween__button _play" type="button">Play</button>
+				<button class="basic-tween__button _pause" type="button">Pause</button>
+				<button class="basic-tween__button _stop" type="button">Stop</button>
+				<button class="basic-tween__button _restart" type="button">Restart</button>
+			</div>
+			<img class="basic-tween__img _fred _from-to" src="/assets/images/basic-tween/fred.svg" alt="">
+		</div>
+	</div>
+
+	<div class="basic-tween__item">
+		<p class="basic-tween__name">repeat and yoyo</p>
+		<p class="basic-tween__code code">
+			gsap.to('.basic-tween__img._fred._yoyo', {
+				x: 220,
+				rotate: 360,
+				duration: 1.5,
+				repeat: -1,
+				yoyo: true,
+				ease: 'linear',
+				paused: true,
+			})
+		</p>
+		<div class="basic-tween__stage">
+			<div class="basic-tween__controls">
+				<button class="basic-tween__button _play" type="button">Play</button>
+				<button class="basic-tween__button _pause" type="button">Pause</button>
+				<button class="basic-tween__button _stop" type="button">Stop</button>
+				<button class="basic-tween__button _restart" type="button">Restart</button>
+			</div>
+			<img class="basic-tween__img _fred _yoyo" src="/assets/images/basic-tween/fred-pink.svg" alt="">
+		</div>
+	</div>
+
+	<div class="basic-tween__item">
+		<p class="basic-tween__name">linear ease</p>
+		<p class="basic-tween__code code">
+			gsap.to('.basic-tween__img._fred._ease-linear', {
+				x: 220,
+				duration: 2,
+				ease: 'linear',
+				paused: true,
+			})
+		</p>
+		<div class="basic-tween__stage">
+			<div class="basic-tween__controls">
+				<button class="basic-tween__button _play" type="button">Play</button>
+				<button class="basic-tween__button _pause" type="button">Pause</button>
+				<button class="basic-tween__button _stop" type="button">Stop</button>
+				<button class="basic-tween__button _restart" type="button">Restart</button>
+			</div>
+			<img class="basic-tween__img _fred _ease-linear" src="/assets/images/basic-tween/fred-purple.svg" alt="">
+		</div>
+	</div>
+
+	<div class="basic-tween__item">
+		<p class="basic-tween__name">back ease</p>
+		<p class="basic-tween__code code">
+			gsap.to('.basic-tween__img._fred._ease-back', {
+				x: 220,
+				duration: 1.5,
+				ease: 'back(3)',
+				paused: true,
+			})
+		</p>
+		<div class="basic-tween__stage">
+			<div class="basic-tween__controls">
+				<button class="basic-tween__button _play" type="button">Play</button>
+				<button class="basic-tween__button _pause" type="button">Pause</button>
+				<button class="basic-tween__button _stop" type="button">Stop</button>
+				<button class="basic-tween__button _restart" type="button">Restart</button>
+			</div>
+			<img class="basic-tween__img _fred _ease-back" src="/assets/images/basic-tween/fred-purple.svg" alt="">
+		</div>
+	</div>
+
+	<div class="basic-tween__item">
+		<p class="basic-tween__name">elastic ease</p>
+		<p class="basic-tween__code code">
+			gsap.to('.basic-tween__img._fred._ease-elastic', {
+				x: 220,
+				duration: 3,
+				ease: 'elastic',
+				paused: true,
+			})
+		</p>
+		<div class="basic-tween__stage">
+			<div class="basic-tween__controls">
+				<button class="basic-tween__button _play" type="button">Play</button>
+				<button class="basic-tween__button _pause" type="button">Pause</button>
+				<button class="basic-tween__button _stop" type="button">Stop</button>
+				<button class="basic-tween__button _restart" type="button">Restart</button>
+			</div>
+			<img class="basic-tween__img _fred _ease-elastic" src="/assets/images/basic-tween/fred-purple.svg" alt="">
+		</div>
+	</div>
+
+	<div class="basic-tween__item">
+		<p class="basic-tween__name">bounce ease</p>
+		<p class="basic-tween__code code">
+			gsap.to('.basic-tween__img._fred._ease-bounce', {
+				x: 220,
+				duration: 2,
+				ease: 'bounce',
+				paused: true,
+			})
+		</p>
+		<div class="basic-tween__stage">
+			<div class="basic-tween__controls">
+				<button class="basic-tween__button _play" type="button">Play</button>
+				<button class="basic-tween__button _pause" type="button">Pause</button>
+				<button class="basic-tween__button _stop" type="button">Stop</button>
+				<button class="basic-tween__button _restart" type="button">Restart</button>
+			</div>
+			<img class="basic-tween__img _fred _ease-bounce" src="/assets/images/basic-tween/fred-purple.svg" alt="">
+		</div>
+	</div>
+
+	<div class="basic-tween__item">
+		<p class="basic-tween__name">stagger</p>
+		<p class="basic-tween__code code">
+			gsap.to('.basic-tween__img._fred._stagger', {
+				y: -100,
+				stagger: { amount: 0.5, from: 'end' },
+				repeat: -1,
+				yoyo: true,
+				paused: true,
+			})
+		</p>
+		<div class="basic-tween__stage">
+			<div class="basic-tween__controls">
+				<button class="basic-tween__button _play" type="button">Play</button>
+				<button class="basic-tween__button _pause" type="button">Pause</button>
+				<button class="basic-tween__button _stop" type="button">Stop</button>
+				<button class="basic-tween__button _restart" type="button">Restart</button>
+			</div>
+			<img class="basic-tween__img _fred _stagger" src="/assets/images/basic-tween/fred-blue.svg" alt="">
+			<img class="basic-tween__img _fred _stagger" src="/assets/images/basic-tween/fred-orange.svg" alt="">
+			<img class="basic-tween__img _fred _stagger" src="/assets/images/basic-tween/fred-pink.svg" alt="">
+			<img class="basic-tween__img _fred _stagger" src="/assets/images/basic-tween/fred-purple.svg" alt="">
+			<img class="basic-tween__img _fred _stagger" src="/assets/images/basic-tween/fred-red.svg" alt="">
+			<img class="basic-tween__img _fred _stagger" src="/assets/images/basic-tween/fred.svg" alt="">
+		</div>
+	</div>
+</div>

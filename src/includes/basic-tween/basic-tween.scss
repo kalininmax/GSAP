@@ -1,0 +1,88 @@
+.basic-tween {
+	flex-grow: 1;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px 20px;
+	min-height: 100%;
+	padding: 20px 10px;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #0a5b90;
+	&__item {
+		display: flex;
+		flex-direction: column;
+		flex-basis: 500px;
+		flex-grow: 1;
+	}
+	&__name {
+		font-size: 2rem;
+		@media (max-width: 767px) {
+			font-size: 1.5rem;
+		}
+	}
+	&__controls {
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		display: flex;
+		justify-content: center;
+		gap: 16px;
+		@media (max-width: 767px) {
+			top: 10px;
+			left: 10px;
+			gap: 8px;
+		}
+	}
+	&__code {
+		flex-grow: 1;
+		display: flex;
+		align-items: center;
+		font-size: 1rem;
+		@media (max-width: 767px) {
+			font-size: 0.8rem;
+		}
+		@media (max-width: 360px) {
+			font-size: 0.6rem;
+		}
+	}
+	&__img {
+		&._fred {
+			width: 100px;
+			height: auto;
+		}
+		@media (max-width: 767px) {
+			&._fred {
+				width: 80px;
+			}
+			&._stagger {
+				&:nth-of-type(n + 4) {
+					display: none;
+				}
+			}
+		}
+	}
+	&__stage {
+		position: relative;
+		overflow: hidden;
+		display: flex;
+		align-items: flex-end;
+		gap: 10px;
+		min-height: 250px;
+		padding: 20px;
+		padding-top: 40px;
+		background: #000 url(/assets/images/basic-tween/space-background.png) center bottom no-repeat;
+		background-size: cover;
+		@media (max-width: 767px) {
+			min-height: 200px;
+			padding: 10px;
+		}
+	}
+	&__button {
+		display: block;
+		padding: 10px 30px;
+		cursor: pointer;
+		@media (max-width: 767px) {
+			padding: 5px 10px;
+		}
+	}
+}

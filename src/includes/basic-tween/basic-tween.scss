@@ -11,7 +11,8 @@
 	&__item {
 		display: flex;
 		flex-direction: column;
-		flex-basis: 500px;
+		width: 500px;
+		max-width: 800px;
 		flex-grow: 1;
 	}
 	&__name {

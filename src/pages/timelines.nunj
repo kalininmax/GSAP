@@ -1,11 +1,8 @@
 {% extends "../templates/base.nunj" %}
 
+{% block title %}Timelines | {{ super() }}{% endblock title %}
+
 {% block content %}
 	{% include "../includes/header/header.nunj" %}
-
-	<div class="index-content">
-		<h1>GSAP</h1>
-		{% include "../assets/images/greensock-logo-man.svg" %}
-	</div>
-
+	{% include "../includes/timelines/timelines.nunj" %}
 {% endblock %}

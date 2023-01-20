@@ -1,0 +1,26 @@
+.index-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	padding: 16px;
+	overflow: hidden;
+	h1 {
+		font-size: 10rem;
+		margin-bottom: 16px;
+	}
+	svg {
+		transform: translateX(-30%);
+	}
+	@media (max-width: 565px) {
+		h1 {
+			font-size: 6rem;
+		}
+		svg {
+			width: 200px;
+			height: auto;
+			transform: translateX(-10%);
+		}
+	}
+}

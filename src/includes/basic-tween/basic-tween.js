@@ -6,6 +6,9 @@ class BasicTween {
 	}
 
 	init() {
+		if (!document.querySelector('.basic-tween')) {
+			return;
+		}
 		const Tweens = [];
 		const playButtons = document.querySelectorAll('.basic-tween__button._play');
 		const pauseButtons = document.querySelectorAll('.basic-tween__button._pause');

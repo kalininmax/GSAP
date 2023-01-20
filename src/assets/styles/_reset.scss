@@ -15,8 +15,9 @@ body {
 
 body {
 	font: normal 14px/1.4 Arial, sans-serif;
-	color: #000;
-	background: #fff;
+	color: #fff;
+	background-color: #0a5b90;
+
 	@include mobile {
 		-webkit-text-size-adjust: 100%;
 	}
@@ -44,7 +45,6 @@ a {
 	color: inherit;
 	text-decoration: underline;
 	&:hover {
-		color: #333;
 		text-decoration: none;
 	}
 }

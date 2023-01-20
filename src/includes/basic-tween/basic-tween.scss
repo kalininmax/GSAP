@@ -4,10 +4,8 @@
 	flex-wrap: wrap;
 	gap: 50px 20px;
 	min-height: 100%;
-	padding: 20px 10px;
+	padding: 40px 16px;
 	font-size: 1rem;
-	color: #fff;
-	background-color: #0a5b90;
 	&__item {
 		display: flex;
 		flex-direction: column;
@@ -70,8 +68,8 @@
 		gap: 10px;
 		min-height: 250px;
 		padding: 20px;
-		padding-top: 40px;
-		background: #000 url(/assets/images/basic-tween/space-background.png) center bottom no-repeat;
+		padding-top: 80px;
+		background: #000 url(/assets/images/space-background.png) center bottom no-repeat;
 		background-size: cover;
 		@media (max-width: 767px) {
 			min-height: 200px;

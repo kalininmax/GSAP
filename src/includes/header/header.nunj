@@ -3,8 +3,10 @@
 <div class="header">
 	<div class="container">
 		<nav>
-			<ul>
+			<ul class="header__list">
+				<li><a href="/">Home</a></li>
 				<li><a href="/basic-tween.html">Basic Tween</a></li>
+				<li><a href="/timelines.html">Timelines</a></li>
 			</ul>
 		</nav>
 	</div>

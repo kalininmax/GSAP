@@ -1,0 +1,76 @@
+<div class="timelines">
+	<div class="timelines__item">
+		<p class="timelines__name">gsap.timeline()</p>
+		<p class="timelines__code code">
+			gsap
+				.timeline({ paused: true })
+				.from('.timelines__img._bg', { opacity: 0, duration: 1 })
+				.from('.timelines__img._title', { opacity: 0, scale: 0, duration: 1, ease: 'back' })
+				.from('.timelines__img._fred', { yPercent: 150, stagger: 0.1, ease: 'back' }, 'freds')
+				.from('.timelines__img._time', { xPercent: 100, duration: 0.4 }, '<')
+		</p>
+		<div class="timelines__stage _meet-the-freds">
+			<div class="timelines__controls">
+				<button class="timelines__button _play" type="button">Play</button>
+				<button class="timelines__button _pause" type="button">Pause</button>
+				<button class="timelines__button _stop" type="button">Stop</button>
+				<button class="timelines__button _restart" type="button">Restart</button>
+				<button class="timelines__button _restart-freds" type="button">Play freds label</button>
+			</div>
+			<img class="timelines__img _bg" src="/assets/images/space-background.png" alt="">
+			<img class="timelines__img _title" src="/assets/images/timelines/meet-the-freds.png" alt="">
+			<img class="timelines__img _time" src="/assets/images/timelines/time.png" alt="">
+			<img class="timelines__img _fred _stagger" src="/assets/images/freds/fred-blue.svg" alt="">
+			<img class="timelines__img _fred _stagger" src="/assets/images/freds/fred-orange.svg" alt="">
+			<img class="timelines__img _fred _stagger" src="/assets/images/freds/fred-pink.svg" alt="">
+			<img class="timelines__img _fred _stagger" src="/assets/images/freds/fred-purple.svg" alt="">
+			<img class="timelines__img _fred _stagger" src="/assets/images/freds/fred-red.svg" alt="">
+			<img class="timelines__img _fred _stagger" src="/assets/images/freds/fred.svg" alt="">
+		</div>
+	</div>
+	<div class="timelines__item">
+		<p class="timelines__name">GSAP Express Final&nbsp;Project</p>
+		<p class="timelines__code code">
+	gsap
+		.timeline({ defaults: { ease: 'back' }, paused: true })
+		.fromTo(
+			'.timelines__stage._final-project',
+			{ background: '#fff' },
+			{
+				background:
+					'linear-gradient(to right, #fff 0%, #fff 35%, rgb(214, 93, 245) 77%, rgb(214, 93, 245) 100%)',
+			}
+		)
+		.from('.timelines__stage-title span:nth-child(1)', { x: 80, autoAlpha: 0, duration: 1 })
+		.from(
+			'.timelines__stage-title span:nth-child(2)',
+			{ x: -80, autoAlpha: 0, duration: 1 },
+			'<'
+		)
+		.from('.timelines__stage-text', { y: 30, autoAlpha: 0 }, '-=0.2')
+		.from('.timelines__stage-link', { y: 20, autoAlpha: 0 }, '-=0.4')
+		.set('.timelines__stage-svg-wrapper', { autoAlpha: 1 })
+		.from('#items > g', {
+			scale: 0,
+			transformOrigin: 'center',
+			stagger: 0.1,
+		})
+		</p>
+		<div class="timelines__stage _final-project">
+			<div class="timelines__controls">
+				<button class="timelines__button _play" type="button">Play</button>
+				<button class="timelines__button _pause" type="button">Pause</button>
+				<button class="timelines__button _stop" type="button">Stop</button>
+				<button class="timelines__button _restart" type="button">Restart</button>
+			</div>
+			<div class="timelines__stage-col">
+				<h2 class="timelines__stage-title"><span>Creative</span> <span>process</span></h2>
+				<p class="timelines__stage-text">Learn how to find inspiration in the things you love.</p>
+				<a class="timelines__stage-link" href="#">Read more</a>
+			</div>
+			<div class="timelines__stage-svg-wrapper">
+				{% include "../../assets/images/timelines/things.svg" %}
+			</div>
+		</div>
+	</div>
+</div>

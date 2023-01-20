@@ -28,9 +28,14 @@ class GSAP {
 			if (document.querySelector('.index-content')) {
 				gsap
 					.timeline()
-					.from('.index-content h1', { opacity: 0, scale: 10, duration: 0.7 })
-					.from('.index-content svg', { opacity: 0, x: '-100vw', ease: 'back(1.1)' })
-					.from('.header', { opacity: 0, yPercent: -100, duration: 0.3, ease: 'back(1.1)' });
+					.from('.index-content h1', { autoAlpha: 0, scale: 10, duration: 0.7 })
+					.from('.index-content svg', { autoAlpha: 0, x: '-100vw', ease: 'back(1.1)' })
+					.from('.index  .header', {
+						autoAlpha: 0,
+						yPercent: -100,
+						duration: 0.3,
+						ease: 'back(1.1)',
+					});
 			}
 		});
 	}

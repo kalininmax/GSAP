@@ -1,3 +1,12 @@
+.index {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	.header {
+		visibility: hidden;
+	}
+}
+
 .index-content {
 	display: flex;
 	flex-direction: column;
@@ -9,9 +18,11 @@
 	h1 {
 		font-size: 10rem;
 		margin-bottom: 16px;
+		visibility: hidden;
 	}
 	svg {
 		transform: translateX(-30%);
+		visibility: hidden;
 	}
 	@media (max-width: 565px) {
 		h1 {

@@ -2,12 +2,12 @@
 	<div class="basic-tween__item">
 		<p class="basic-tween__name">gsap.to()</p>
 		<p class="basic-tween__code code">
-gsap.to('.basic-tween__img._fred._to', {
-	x: 220,
-	rotate: 360,
-	duration: 1.5,
-	paused: true,
-})
+			gsap.to('.basic-tween__img._fred._to', {
+			&nbsp;&nbsp;x: 220,
+			&nbsp;&nbsp;rotate: 360,
+			&nbsp;&nbsp;duration: 1.5,
+			&nbsp;&nbsp;paused: true,
+			})
 		</p>
 		<div class="basic-tween__stage">
 			<div class="basic-tween__controls">
@@ -23,12 +23,12 @@ gsap.to('.basic-tween__img._fred._to', {
 	<div class="basic-tween__item">
 		<p class="basic-tween__name">gsap.from()</p>
 		<p class="basic-tween__code code">
-gsap.from('.basic-tween__img._fred._from', {
-	x: 220,
-	rotate: 360,
-	duration: 1.5,
-	paused: true,
-})
+			gsap.from('.basic-tween__img._fred._from', {
+			&nbsp;&nbsp;x: 220,
+			&nbsp;&nbsp;rotate: 360,
+			&nbsp;&nbsp;duration: 1.5,
+			&nbsp;&nbsp;paused: true,
+			})
 		</p>
 		<div class="basic-tween__stage">
 			<div class="basic-tween__controls">
@@ -44,19 +44,10 @@ gsap.from('.basic-tween__img._fred._from', {
 	<div class="basic-tween__item">
 		<p class="basic-tween__name">gsap.fromTo()</p>
 		<p class="basic-tween__code code">
-gsap.fromTo(
-	'.basic-tween__img._fred._from-to',
-	{
-		x: 220,
-		rotate: 360,
-	},
-	{
-		x: 20,
-		rotate: 0,
-		duration: 1.5,
-		paused: true,
-	}
-)
+			gsap.fromTo('.basic-tween__img._fred._from-to',
+			&nbsp;&nbsp;{ x: 220,rotate: 360 },
+			&nbsp;&nbsp;{ x: 20, rotate: 0, duration: 1.5, paused: true }
+			)
 		</p>
 		<div class="basic-tween__stage">
 			<div class="basic-tween__controls">
@@ -72,15 +63,15 @@ gsap.fromTo(
 	<div class="basic-tween__item">
 		<p class="basic-tween__name">repeat and yoyo</p>
 		<p class="basic-tween__code code">
-gsap.to('.basic-tween__img._fred._yoyo', {
-	x: 220,
-	rotate: 360,
-	duration: 1.5,
-	repeat: -1,
-	yoyo: true,
-	ease: 'linear',
-	paused: true,
-})
+			gsap.to('.basic-tween__img._fred._yoyo', {
+			&nbsp;&nbsp;x: 220,
+			&nbsp;&nbsp;rotate: 360,
+			&nbsp;&nbsp;duration: 1.5,
+			&nbsp;&nbsp;repeat: -1,
+			&nbsp;&nbsp;yoyo: true,
+			&nbsp;&nbsp;ease: 'linear',
+			&nbsp;&nbsp;paused: true,
+			})
 		</p>
 		<div class="basic-tween__stage">
 			<div class="basic-tween__controls">
@@ -96,12 +87,12 @@ gsap.to('.basic-tween__img._fred._yoyo', {
 	<div class="basic-tween__item">
 		<p class="basic-tween__name">linear ease</p>
 		<p class="basic-tween__code code">
-gsap.to('.basic-tween__img._fred._ease-linear', {
-	x: 220,
-	duration: 2,
-	ease: 'linear',
-	paused: true,
-})
+			gsap.to('.basic-tween__img._fred._ease-linear', {
+			&nbsp;&nbsp;x: 220,
+			&nbsp;&nbsp;duration: 2,
+			&nbsp;&nbsp;ease: 'linear',
+			&nbsp;&nbsp;paused: true,
+			})
 		</p>
 		<div class="basic-tween__stage">
 			<div class="basic-tween__controls">
@@ -117,12 +108,12 @@ gsap.to('.basic-tween__img._fred._ease-linear', {
 	<div class="basic-tween__item">
 		<p class="basic-tween__name">back ease</p>
 		<p class="basic-tween__code code">
-gsap.to('.basic-tween__img._fred._ease-back', {
-	x: 220,
-	duration: 1.5,
-	ease: 'back(3)',
-	paused: true,
-})
+			gsap.to('.basic-tween__img._fred._ease-back', {
+			&nbsp;&nbsp;x: 220,
+			&nbsp;&nbsp;duration: 1.5,
+			&nbsp;&nbsp;ease: 'back(3)',
+			&nbsp;&nbsp;paused: true,
+			})
 		</p>
 		<div class="basic-tween__stage">
 			<div class="basic-tween__controls">
@@ -138,12 +129,12 @@ gsap.to('.basic-tween__img._fred._ease-back', {
 	<div class="basic-tween__item">
 		<p class="basic-tween__name">elastic ease</p>
 		<p class="basic-tween__code code">
-gsap.to('.basic-tween__img._fred._ease-elastic', {
-	x: 220,
-	duration: 3,
-	ease: 'elastic',
-	paused: true,
-})
+			gsap.to('.basic-tween__img._fred._ease-elastic', {
+			&nbsp;&nbsp;x: 220,
+			&nbsp;&nbsp;duration: 3,
+			&nbsp;&nbsp;ease: 'elastic',
+			&nbsp;&nbsp;paused: true,
+			})
 		</p>
 		<div class="basic-tween__stage">
 			<div class="basic-tween__controls">
@@ -159,12 +150,12 @@ gsap.to('.basic-tween__img._fred._ease-elastic', {
 	<div class="basic-tween__item">
 		<p class="basic-tween__name">bounce ease</p>
 		<p class="basic-tween__code code">
-gsap.to('.basic-tween__img._fred._ease-bounce', {
-	x: 220,
-	duration: 2,
-	ease: 'bounce',
-	paused: true,
-})
+			gsap.to('.basic-tween__img._fred._ease-bounce', {
+			&nbsp;&nbsp;x: 220,
+			&nbsp;&nbsp;duration: 2,
+			&nbsp;&nbsp;ease: 'bounce',
+			&nbsp;&nbsp;paused: true,
+			})
 		</p>
 		<div class="basic-tween__stage">
 			<div class="basic-tween__controls">
@@ -180,13 +171,13 @@ gsap.to('.basic-tween__img._fred._ease-bounce', {
 	<div class="basic-tween__item">
 		<p class="basic-tween__name">stagger</p>
 		<p class="basic-tween__code code">
-gsap.to('.basic-tween__img._fred._stagger', {
-	y: -100,
-	stagger: { amount: 0.5, from: 'end' },
-	repeat: -1,
-	yoyo: true,
-	paused: true,
-})
+			gsap.to('.basic-tween__img._fred._stagger', {
+			&nbsp;&nbsp;y: -100,
+			&nbsp;&nbsp;stagger: { amount: 0.5, from: 'end' },
+			&nbsp;&nbsp;repeat: -1,
+			&nbsp;&nbsp;yoyo: true,
+			&nbsp;&nbsp;paused: true,
+			})
 		</p>
 		<div class="basic-tween__stage">
 			<div class="basic-tween__controls">

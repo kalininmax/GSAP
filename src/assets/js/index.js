@@ -1,4 +1,7 @@
 import { gsap } from 'gsap';
+import { MotionPathPlugin } from 'gsap/MotionPathPlugin';
+
+gsap.registerPlugin(MotionPathPlugin);
 
 // import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 // gsap.registerPlugin(ScrollToPlugin);
@@ -19,6 +22,7 @@ class GSAP {
 		this.components = {
 			BasicTween: require('../../includes/basic-tween/basic-tween'),
 			Timelines: require('../../includes/timelines/timelines'),
+			BeyondBasics: require('../../includes/beyond-basics/beyond-basics'),
 		};
 		this.helpers = {};
 		this.modules = {};

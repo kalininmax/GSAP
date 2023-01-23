@@ -1,10 +1,15 @@
 .header {
+	box-sizing: border-box;
 	padding: 24px 10px;
 	border-bottom: 1px solid currentColor;
 	&__list {
+		overflow: auto;
 		display: flex;
 		gap: 24px;
 		font-size: 18px;
 		line-height: 1.5;
+		li {
+			flex-shrink: 0;
+		}
 	}
 }

@@ -14,4 +14,80 @@
 			</div>
 		</div>
 	</section>
+	<section class="beyond-basics__section _alternate-text section">
+		<h2 class="section-title">gsap.registerEffect() and gsap.utils.wrap()</h2>
+		<div id="alternate-text" class="section-stage-wrapper">
+			<div class="section-controls">
+				<button class="beyond-basics__button button" type="button">Play</button>
+			</div>
+			<div class="section-progress">
+				<input class="section-progress__slider" type="range" min="0" max="1" value="0" step="0.001" />
+				<p class="section-progress__time">0.00</p>
+			</div>
+			<div class="beyond-basics__stage-wrapper">
+				<div class="beyond-basics__stage">
+					<p>Bob's Ice Cream</p>
+					<p>A rainbow of flavors</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="beyond-basics__section _clear-props section">
+		<h2 class="section-title">clearProps</h2>
+		<div id="clear-props" class="section-stage-wrapper">
+			<div class="beyond-basics__stage-wrapper">
+				<div class="beyond-basics__stage">
+					<ul>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+					</ul>
+					<button class="button" type="button">Reset</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="beyond-basics__section _spin-text section">
+		<h2 class="section-title">Spin text animation</h2>
+		<div id="spin-text" class="section-stage-wrapper">
+			<div class="section-controls">
+				<button class="beyond-basics__button button" type="button">Play</button>
+			</div>
+			<div class="section-progress">
+				<input class="section-progress__slider" type="range" min="0" max="1" value="0" step="0.001" />
+				<p class="section-progress__time">0.00</p>
+			</div>
+			<div class="beyond-basics__stage-wrapper">
+				<div class="beyond-basics__stage">
+					<p>Animating with Code is Fun</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="beyond-basics__section _rubber-text section">
+		<h2 class="section-title">Rubber text animation with gsap.utils.distribute()</h2>
+		<div id="rubber-text" class="section-stage-wrapper">
+			<div class="beyond-basics__stage-wrapper">
+				<div class="beyond-basics__stage">
+					<p>Rubber text</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="beyond-basics__section _staggered-text section">
+		<h2 class="section-title">Staggered stagger 3D text animation</h2>
+		<div id="staggered-text" class="section-stage-wrapper">
+			<div class="beyond-basics__stage-wrapper">
+				<div class="beyond-basics__stage">
+					<p>75 Flavors</p>
+					<p>36 Toppings</p>
+					<p>25 Commemorative Bowls</p>
+					<p>8 Sizes of Spoons</p>
+					<p>Unlimited Possibilities</p>
+				</div>
+			</div>
+		</div>
+	</section>
 </div>

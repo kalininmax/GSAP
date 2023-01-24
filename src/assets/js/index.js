@@ -25,7 +25,9 @@ class GSAP {
 			BeyondBasics: require('../../includes/beyond-basics/beyond-basics'),
 		};
 		this.helpers = {};
-		this.modules = {};
+		this.modules = {
+			TextSplitter: require('./modules/TextSplitter'),
+		};
 		document.addEventListener('DOMContentLoaded', () => {
 			document.documentElement.classList.remove('_loading');
 

@@ -90,4 +90,62 @@
 			</div>
 		</div>
 	</section>
+	<section class="beyond-basics__section _flatten-curve section">
+		<h2 class="section-title">Flatten the Curve banner</h2>
+		<div id="flatten-curve" class="section-stage-wrapper">
+			<div class="beyond-basics__stage-wrapper">
+				<div class="beyond-basics__stage">
+					<div class="slide">
+						<div class="svg-wrapper">
+							{% include "../../assets/images/beyond-basics/wash-hands.svg" %}
+						</div>
+						<p><span>Wash</span> <span>hands</span></p>
+					</div>
+					<div class="slide">
+						<div class="svg-wrapper">
+							{% include "../../assets/images/beyond-basics/wear-mask.svg" %}
+						</div>
+						<p><span>Wear</span> <span>mask</span></p>
+					</div>
+					<div class="slide">
+						<div class="svg-wrapper">
+							{% include "../../assets/images/beyond-basics/stay-home.svg" %}
+						</div>
+						<p><span>Stay</span> <span>home</span></p>
+					</div>
+					<div class="slide _curve">
+						{% include "../../assets/images/beyond-basics/curves.svg" %}
+						<p><span>#</span><span>flattenTheCurve</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="beyond-basics__section _title-effects section">
+		<h2 class="section-title">Title Effects</h2>
+		<p>Mouse left-click on stage — next title</p>
+		<p>Mouse right-click on stage — prev title</p>
+		<div id="title-effects" class="section-stage-wrapper">
+			<div class="beyond-basics__stage-wrapper">
+				<div class="beyond-basics__stage">
+					<p>Type all the code</p>
+					<p>Go slow</p>
+					<p>Avoid distractions, bonehead</p>
+					<p>Stick to a routine</p>
+					<p>Celebrate small victories</p>
+					<p>Take breaks and clear your head</p>
+				</div>
+			</div>
+			<div class="beyond-basics__stage-wrapper">
+				<div class="beyond-basics__stage">
+					<p>Type all the code</p>
+					<p>Go slow</p>
+					<p>Avoid distractions, bonehead</p>
+					<p>Stick to a routine</p>
+					<p>Celebrate small victories</p>
+					<p>Take breaks and clear your head</p>
+				</div>
+			</div>
+		</div>
+	</section>
 </div>

@@ -23,6 +23,8 @@ class BeyondBasics {
 			this._initSpinText();
 			this._initRubberText();
 			this._initStaggeredText();
+			this._initFlattenCurveBanner();
+			this._initTitleEffects();
 		});
 	}
 
@@ -305,6 +307,256 @@ class BeyondBasics {
 				},
 				stagger
 			);
+	}
+	_initFlattenCurveBanner() {
+		const container = this.container.querySelector('#flatten-curve');
+		const stage = container.querySelector('.beyond-basics__stage');
+		const slides = container.querySelectorAll('.slide');
+		const curveTallPath = container.querySelector('#curveTall');
+		const curveFlatPath = container.querySelector('#curveFlat');
+
+		const masterAnimation = gsap.timeline({ repeat: -1, repeatDelay: 2 });
+		const slideDelay = '-=0.5';
+
+		const slideAnim = slide => {
+			const tl = gsap.timeline();
+			const icon = slide.querySelector('.svg-wrapper');
+			const text = slide.querySelector('p');
+			const word1 = slide.querySelector('p span:nth-child(1)');
+			const word2 = slide.querySelector('p span:nth-child(2)');
+
+			tl.from(icon, { xPercent: -220, scale: 0.5, ease: 'power1.in' })
+				.from(icon, { y: 150, ease: 'power1' }, '<')
+				.from(icon, { opacity: 0, duration: 0.3 }, '<')
+
+				.from(word1, { x: -170, duration: 0.3, ease: 'power1' }, '-=0.3')
+				.from(word2, { x: 170, duration: 0.3, ease: 'power1' }, '<')
+				.from(text, { opacity: 0, duration: 0.2 }, '<')
+
+				.to(icon, { xPercent: 220, scale: 0.5, ease: 'power1' }, '+=0.5')
+				.to(icon, { y: 150, ease: 'power1.in' }, '<')
+
+				.to(text, { y: 30, ease: 'power1.in', opacity: 0, duration: 0.3 }, '<')
+				.to(icon, { opacity: 0, duration: 0.3 }, '-=0.3');
+
+			return tl;
+		};
+
+		const curveSlideAnim = slide => {
+			const tl = gsap.timeline();
+			const text = slide.querySelector('p');
+
+			tl.from(slide, { opacity: 0, duration: 0.2 })
+				.from(text, { y: -350, ease: 'power1.in', duration: 0.2 }, '+=0.7')
+				.to(
+					curveTallPath,
+					{
+						attr: {
+							d: curveFlatPath.getAttribute('d'),
+						},
+						ease: 'power1.in',
+						duration: 0.1,
+					},
+					'-=0.1'
+				)
+				.to(slide, { opacity: 0, duration: 0.2, ease: 'power1.in' }, '+=1');
+
+			return tl;
+		};
+
+		gsap.set(stage, { autoAlpha: 1 });
+
+		masterAnimation
+			.add(slideAnim(slides[0]))
+			.add(slideAnim(slides[1]), slideDelay)
+			.add(slideAnim(slides[2]), slideDelay)
+			.add(curveSlideAnim(slides[3]));
+	}
+	_initTitleEffects() {
+		const container = this.container.querySelector('#title-effects');
+		const stages = container.querySelectorAll('.beyond-basics__stage');
+
+		gsap.registerEffect({
+			name: 'slideIn',
+			extendTimeline: true,
+			defaults: {
+				x: 0,
+				y: 0,
+				duration: 1,
+				ease: 'power1',
+				stagger: 0.03,
+			},
+			effect: (targets, config) => {
+				const chars = targets.map(text => text.querySelectorAll('.letter'));
+				const tl = gsap.timeline();
+
+				tl.from(chars, {
+					x: config.x,
+					y: config.y,
+					duration: config.duration,
+					ease: config.ease,
+					stagger: { each: config.stagger, ease: 'power1.in' },
+				}).from(
+					chars,
+					{
+						opacity: 0,
+						duration: config.duration,
+						ease: 'linear',
+						stagger: { each: config.stagger, ease: 'power2' },
+					},
+					0
+				);
+
+				return tl;
+			},
+		});
+		gsap.registerEffect({
+			name: 'slideOut',
+			extendTimeline: true,
+			defaults: {
+				x: 0,
+				y: 0,
+				duration: 0.6,
+				ease: 'power1.in',
+				stagger: 0.01,
+			},
+			effect: (targets, config) => {
+				const chars = targets.map(text => text.querySelectorAll('.letter'));
+				const tl = gsap.timeline();
+
+				tl.to(chars, {
+					x: config.x,
+					y: config.y,
+					duration: config.duration,
+					ease: config.ease,
+					stagger: { each: config.stagger, ease: 'power1' },
+				}).to(
+					chars,
+					{
+						opacity: 0,
+						duration: config.duration,
+						ease: 'linear',
+						stagger: { each: config.stagger, ease: 'power2' },
+					},
+					0
+				);
+
+				return tl;
+			},
+		});
+		gsap.registerEffect({
+			name: 'twistIn',
+			extendTimeline: true,
+			defaults: {
+				rotationX: 0,
+				rotationY: 0,
+				transformOrigin: '50% 50%',
+				duration: 1,
+				ease: 'back(3)',
+				stagger: 0.05,
+				parent: 'body',
+			},
+			effect: (targets, config) => {
+				gsap.set(config.parent, { perspective: 300 });
+
+				const words = targets.map(text => text.querySelectorAll('.word'));
+				const tl = gsap.timeline();
+				tl.from(words, {
+					rotationX: config.rotationX,
+					rotationY: config.rotationY,
+					transformOrigin: config.transformOrigin,
+					duration: config.duration,
+					ease: config.ease,
+					stagger: config.stagger,
+				});
+				tl.from(
+					words,
+					{
+						opacity: 0,
+						duration: config.duration / 2,
+						ease: 'linear',
+						stagger: config.stagger,
+					},
+					0
+				);
+				return tl;
+			},
+		});
+		gsap.registerEffect({
+			name: 'twistOut',
+			extendTimeline: true,
+			defaults: {
+				rotationX: 0,
+				rotationY: 0,
+				transformOrigin: '50% 50%',
+				duration: 0.5,
+				ease: 'power1.in',
+				stagger: 0.01,
+				parent: 'body',
+			},
+			effect: (targets, config) => {
+				gsap.set(config.parent, { perspective: 300 });
+
+				const words = targets.map(text => text.querySelectorAll('.word'));
+				const tl = gsap.timeline();
+				tl.to(words, {
+					rotationX: config.rotationX,
+					rotationY: config.rotationY,
+					transformOrigin: config.transformOrigin,
+					duration: config.duration,
+					ease: config.ease,
+					stagger: config.stagger,
+				});
+				tl.to(
+					words,
+					{
+						opacity: 0,
+						duration: config.duration - 0.1,
+						ease: 'linear',
+						stagger: config.stagger,
+					},
+					0
+				);
+				return tl;
+			},
+		});
+
+		stages.forEach((stage, index) => {
+			const texts = stage.querySelectorAll('p');
+			stage.timeline = gsap.timeline({ repeat: -1 });
+
+			stage.addEventListener('click', evt => {
+				evt.preventDefault();
+
+				stage.timeline.play();
+			});
+			stage.addEventListener('contextmenu', evt => {
+				evt.preventDefault();
+
+				stage.timeline.reverse();
+			});
+
+			index === 0 &&
+				texts.forEach((text, i) => {
+					TextSplitter.split(text, true);
+					stage.timeline
+						.slideIn(text, { y: 200, ease: 'back' }, i > 0 ? '-=0.3' : 0)
+						.addPause()
+						.slideOut(text, { y: -200 });
+				});
+
+			index === 1 &&
+				texts.forEach((text, i) => {
+					TextSplitter.split(text);
+
+					stage.timeline
+						.twistIn(text, { rotationX: 120, transformOrigin: '50% 0%' }, i > 0 ? '-=0.3' : 0)
+						.addPause()
+						.twistOut(text, { rotationX: -120, transformOrigin: '50% 100%' });
+				});
+
+			gsap.set(stage, { autoAlpha: 1 });
+		});
 	}
 }
 

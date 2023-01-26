@@ -146,6 +146,29 @@
 					<p>Take breaks and clear your head</p>
 				</div>
 			</div>
+			<div class="beyond-basics__stage-wrapper _reusable-effects">
+				<div class="beyond-basics__stage">
+					{% include "../../assets/images/beyond-basics/reusable-effects.svg" %}
+				</div>
+			</div>
+			<div class="beyond-basics__stage-wrapper">
+				<div class="beyond-basics__stage">
+					<p>Type all the code</p>
+					<p>Go slow</p>
+					<p>Avoid distractions, bonehead</p>
+					<p>Stick to a routine</p>
+					<p>Celebrate small victories</p>
+					<p>Take breaks and clear your head</p>
+				</div>
+			</div>
+			<div class="beyond-basics__stage-wrapper">
+				<div class="beyond-basics__stage _text">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores provident tempora amet enim optio soluta pariatur excepturi reiciendis adipisci non voluptatum mollitia animi, assumenda odio eius.</p>
+					<p>Tempora tenetur eveniet iusto beatae blanditiis laboriosam fugiat deleniti repudiandae illum facere aspernatur ducimus officia harum voluptatibus, repellendus quo minima ex provident reprehenderit enim laudantium?</p>
+					<p>Voluptatibus asperiores perspiciatis iste iusto itaque ratione ipsam odio perferendis recusandae reprehenderit quod eaque dolorum quam illum libero, corporis excepturi quibusdam quis praesentium!</p>
+					<p>Vel blanditiis non consectetur. Eveniet exercitationem illum adipisci, voluptas omnis quam. Beatae ea eligendi delectus, nobis quisquam perferendis expedita quae iste, veritatis adipisci maiores ratione aut.</p>
+				</div>
+			</div>
 		</div>
 	</section>
 </div>

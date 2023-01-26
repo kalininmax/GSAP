@@ -28,6 +28,14 @@
 					font-size: 5rem;
 				}
 			}
+			@media (max-width: 565px) {
+				p {
+					font-size: 1.7rem;
+					&:first-child {
+						font-size: 3rem;
+					}
+				}
+			}
 		}
 		._spin-text &,
 		._rubber-text & {
@@ -118,8 +126,12 @@
 			grid-template: 1fr / 1fr;
 			align-items: stretch;
 			width: 400px;
+			max-width: 100%;
 			visibility: hidden;
 			background-color: #c36;
+			@media (max-width: 565px) {
+				min-height: 250px;
+			}
 			.slide {
 				position: relative;
 				grid-column: 1/-1;
@@ -145,6 +157,11 @@
 						text-align: center;
 						text-transform: capitalize;
 					}
+					@media (max-width: 565px) {
+						p {
+							bottom: 45%;
+						}
+					}
 				}
 			}
 			.svg-wrapper {
@@ -159,16 +176,28 @@
 					width: 70px;
 					height: 70px;
 				}
+				@media (max-width: 565px) {
+					width: 70px;
+					height: 70px;
+					svg {
+						width: 50px;
+						height: 50px;
+					}
+				}
 			}
 			p {
 				font-size: 2.5rem;
 				font-weight: 700;
 				text-transform: lowercase;
+				white-space: nowrap;
 				span {
 					display: inline-block;
 					&:nth-child(even) {
 						color: #0cf;
 					}
+				}
+				@media (max-width: 565px) {
+					font-size: 2em;
 				}
 			}
 		}
@@ -182,14 +211,52 @@
 				text-align: center;
 				user-select: none;
 			}
+			@media (max-width: 1024px) {
+				> p {
+					font-size: 2.5rem;
+				}
+			}
+			@media (max-width: 565px) {
+				> p {
+					font-size: 2rem;
+				}
+			}
+		}
+		._reusable-effects & {
+			min-height: auto;
+		}
+		&._text {
+			> p {
+				padding-inline: 1rem;
+				font-size: 2.5rem;
+			}
+			@media (max-width: 1024px) {
+				> p {
+					font-size: 1.5rem;
+				}
+			}
+			@media (max-width: 565px) {
+				> p {
+					font-size: 1rem;
+				}
+			}
 		}
 	}
 	&__stage-wrapper {
 		border: 1px solid teal;
 		overflow: hidden;
-		._flatten-curve & {
+		._flatten-curve &,
+		&._reusable-effects {
 			width: fit-content;
+			max-width: 100%;
 			margin-inline: auto;
+		}
+		&._reusable-effects {
+			pointer-events: none;
+			svg {
+				width: 100%;
+				height: auto;
+			}
 		}
 	}
 }

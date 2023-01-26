@@ -387,17 +387,16 @@ class BeyondBasics {
 				stagger: 0.03,
 			},
 			effect: (targets, config) => {
-				const chars = targets.map(text => text.querySelectorAll('.letter'));
 				const tl = gsap.timeline();
 
-				tl.from(chars, {
+				tl.from(targets, {
 					x: config.x,
 					y: config.y,
 					duration: config.duration,
 					ease: config.ease,
 					stagger: { each: config.stagger, ease: 'power1.in' },
 				}).from(
-					chars,
+					targets,
 					{
 						opacity: 0,
 						duration: config.duration,
@@ -421,17 +420,16 @@ class BeyondBasics {
 				stagger: 0.01,
 			},
 			effect: (targets, config) => {
-				const chars = targets.map(text => text.querySelectorAll('.letter'));
 				const tl = gsap.timeline();
 
-				tl.to(chars, {
+				tl.to(targets, {
 					x: config.x,
 					y: config.y,
 					duration: config.duration,
 					ease: config.ease,
 					stagger: { each: config.stagger, ease: 'power1' },
 				}).to(
-					chars,
+					targets,
 					{
 						opacity: 0,
 						duration: config.duration,
@@ -459,9 +457,8 @@ class BeyondBasics {
 			effect: (targets, config) => {
 				gsap.set(config.parent, { perspective: 300 });
 
-				const words = targets.map(text => text.querySelectorAll('.word'));
 				const tl = gsap.timeline();
-				tl.from(words, {
+				tl.from(targets, {
 					rotationX: config.rotationX,
 					rotationY: config.rotationY,
 					transformOrigin: config.transformOrigin,
@@ -470,7 +467,7 @@ class BeyondBasics {
 					stagger: config.stagger,
 				});
 				tl.from(
-					words,
+					targets,
 					{
 						opacity: 0,
 						duration: config.duration / 2,
@@ -497,9 +494,8 @@ class BeyondBasics {
 			effect: (targets, config) => {
 				gsap.set(config.parent, { perspective: 300 });
 
-				const words = targets.map(text => text.querySelectorAll('.word'));
 				const tl = gsap.timeline();
-				tl.to(words, {
+				tl.to(targets, {
 					rotationX: config.rotationX,
 					rotationY: config.rotationY,
 					transformOrigin: config.transformOrigin,
@@ -508,7 +504,7 @@ class BeyondBasics {
 					stagger: config.stagger,
 				});
 				tl.to(
-					words,
+					targets,
 					{
 						opacity: 0,
 						duration: config.duration - 0.1,
@@ -517,6 +513,159 @@ class BeyondBasics {
 					},
 					0
 				);
+				return tl;
+			},
+		});
+		gsap.registerEffect({
+			name: 'jelly',
+			defaults: {
+				duration: 0.8,
+				stagger: 0.03,
+			},
+			extendTimeline: true,
+			effect: (target, config) => {
+				gsap.set(target, { transformOrigin: '50% 50%' });
+
+				const tl = gsap.timeline();
+				tl.from(target, {
+					scale: 0.8,
+					duration: config.duration,
+					stagger: config.stagger,
+					ease: 'elastic',
+				});
+				tl.from(target, { opacity: 0, duration: 0.01, stagger: config.stagger }, 0);
+				return tl;
+			},
+		});
+		gsap.registerEffect({
+			name: 'burnIn',
+			extendTimeline: true,
+			defaults: {
+				y: 0,
+				x: 0,
+				duration: 0.5,
+				ease: 'linear',
+			},
+			effect: (targets, config) => {
+				gsap.set(targets, { filter: 'blur(0px) brightness(1)' });
+
+				const tl = gsap.timeline();
+				tl.from(targets, {
+					filter: 'blur(20px) brightness(8)',
+					scale: 0.8,
+					rotation: -10,
+					duration: config.duration,
+					ease: config.ease,
+					x: config.x,
+					y: config.y,
+					stagger: {
+						each: 0.02,
+						ease: 'linear',
+					},
+				});
+				tl.from(
+					targets,
+					{
+						duration: 0.1,
+						opacity: 0,
+						ease: 'linear',
+						stagger: {
+							each: 0.02,
+							ease: 'power2',
+						},
+					},
+					0
+				);
+				return tl;
+			},
+		});
+		gsap.registerEffect({
+			name: 'burnOut',
+			extendTimeline: true,
+			defaults: {
+				y: 0,
+				x: 0,
+				duration: 0.3,
+				ease: 'linear',
+			},
+			effect: (targets, config) => {
+				gsap.set(targets, { filter: 'blur(0px) brightness(1)' });
+
+				const tl = gsap.timeline();
+				tl.to(targets, {
+					filter: 'blur(30px) brightness(10)',
+					scale: 0.3,
+					rotation: 10,
+					duration: config.duration,
+					ease: config.ease,
+					x: config.x,
+					y: config.y,
+					clearProps: 'filter',
+					stagger: {
+						each: 0.01,
+						ease: 'linear',
+					},
+				});
+
+				tl.to(
+					targets,
+					{
+						duration: 0.1,
+						opacity: 0,
+						ease: 'linear',
+						stagger: {
+							each: 0.01,
+							ease: 'power2',
+						},
+					},
+					0
+				);
+				return tl;
+			},
+		});
+		gsap.registerEffect({
+			name: 'randomFade',
+			extendTimeline: true,
+			defaults: {
+				y: 0,
+				x: 0,
+				scale: 1,
+				duration: 1,
+				stagger: 0.02,
+				ease: 'power1',
+				direction: 'in',
+			},
+			effect: (targets, config) => {
+				const tl = gsap.timeline();
+
+				if (config.direction === 'in') {
+					tl.from(targets, {
+						opacity: 0,
+						duration: config.duration,
+						ease: config.ease,
+						x: config.x,
+						y: config.y,
+						scale: config.scale,
+						stagger: {
+							each: config.stagger,
+							from: 'random',
+						},
+					});
+				} else {
+					tl.to(targets, {
+						opacity: 0,
+						duration: config.duration,
+						ease: config.ease,
+						x: config.x,
+						y: config.y,
+						scale: config.scale,
+						stagger: {
+							each: config.stagger,
+							from: 'random',
+						},
+					});
+				}
+
 				return tl;
 			},
 		});
@@ -538,21 +687,52 @@ class BeyondBasics {
 
 			index === 0 &&
 				texts.forEach((text, i) => {
-					TextSplitter.split(text, true);
+					const splitText = TextSplitter.split(text, true);
 					stage.timeline
-						.slideIn(text, { y: 200, ease: 'back' }, i > 0 ? '-=0.3' : 0)
+						.slideIn(splitText.letters, { y: 200, ease: 'back' }, i > 0 ? '-=0.3' : 0)
 						.addPause()
-						.slideOut(text, { y: -200 });
+						.slideOut(splitText.letters, { y: -200 });
 				});
 
 			index === 1 &&
 				texts.forEach((text, i) => {
-					TextSplitter.split(text);
+					const splitText = TextSplitter.split(text);
 
 					stage.timeline
-						.twistIn(text, { rotationX: 120, transformOrigin: '50% 0%' }, i > 0 ? '-=0.3' : 0)
+						.twistIn(
+							splitText.words,
+							{ rotationX: 120, transformOrigin: '50% 0%' },
+							i > 0 ? '-=0.3' : 0
+						)
 						.addPause()
-						.twistOut(text, { rotationX: -120, transformOrigin: '50% 100%' });
+						.twistOut(splitText.words, { rotationX: -120, transformOrigin: '50% 100%' });
+				});
+
+			if (index === 2) {
+				const svgNumbers = stage.querySelectorAll('#numbers > g');
+				const svgText = stage.querySelector('#text');
+
+				stage.timeline.jelly(svgNumbers, { stagger: 0.2 }).jelly(svgText, '-=0.6');
+			}
+
+			index === 3 &&
+				texts.forEach((text, i) => {
+					const splitText = TextSplitter.split(text, true);
+
+					stage.timeline
+						.burnIn(splitText.letters, { x: -20 }, i > 0 ? '+=0.2' : 0)
+						.addPause()
+						.burnOut(splitText.letters, { x: 50 });
+				});
+
+			index === 4 &&
+				texts.forEach(text => {
+					const splitText = TextSplitter.split(text);
+
+					stage.timeline
+						.randomFade(splitText.words)
+						.addPause()
+						.randomFade(splitText.words, { direction: 'out', duration: 0.5 });
 				});
 
 			gsap.set(stage, { autoAlpha: 1 });

@@ -62,7 +62,7 @@ class TextSplitter {
 		let result = '';
 
 		for (let k = 0; k < totalWords; k++) {
-			const word = words[k];
+			// const word = words[k];
 			result += createWordPart(words[k], createLetters);
 			// result += '<span class="space"> </span>';
 		}

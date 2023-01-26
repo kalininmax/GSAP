@@ -1,0 +1,10 @@
+{% extends "../templates/base.nunj" %}
+
+{% block title %}Beyond the Basics | {{ super() }}{% endblock title %}
+
+{% block content %}
+	<div class="scroll-trigger">
+		{% include "../includes/header/header.nunj" %}
+		{% include "../includes/scroll-trigger/scroll-trigger.nunj" %}
+	</div>
+{% endblock %}

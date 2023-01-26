@@ -1,0 +1,94 @@
+.scroll-trigger {
+	overflow: hidden;
+	&__section {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		box-sizing: border-box;
+		padding: 2.5rem;
+		padding-top: 76px;
+		border-bottom: 1px solid currentColor;
+		font-size: 2.5rem;
+		font-weight: 700;
+		text-align: center;
+		color: black;
+		background-color: white;
+		@media (max-width: 767px) {
+			font-size: 1.5rem;
+		}
+		p:not(:last-child) {
+			margin-bottom: 1.5rem;
+		}
+		&._first {
+			height: calc(100vh - 76px);
+		}
+		&._last {
+			color: #ccc;
+			background-color: #263238;
+		}
+		&._text {
+			p {
+				width: 80%;
+				text-align: left;
+			}
+			font-size: 2rem;
+			font-weight: 400;
+			@media (max-width: 767px) {
+				p {
+					width: auto;
+					font-size: 1.2rem;
+				}
+			}
+		}
+		&._car {
+			align-items: flex-start;
+		}
+		&._ad {
+			> * {
+				visibility: hidden;
+			}
+			.logo p {
+				box-sizing: border-box;
+				font-size: 3rem;
+				line-height: 1.5;
+				font-weight: 700;
+				color: white;
+				background: #f39;
+			}
+			.text {
+				overflow: hidden;
+				font-size: 1.5rem;
+				text-align: center;
+			}
+			@media (max-width: 767px) {
+				.logo p {
+					font-size: 2rem;
+				}
+				.text {
+					font-size: 1rem;
+				}
+			}
+			@media (max-width: 565px) {
+				.logo p {
+					font-size: 1.5rem;
+				}
+				.text {
+					font-size: 1rem;
+				}
+			}
+		}
+	}
+	.svg-wrapper {
+		width: 25vw;
+		svg {
+			width: 100%;
+			height: auto;
+		}
+	}
+	&__section-wrapper {
+		&._car {
+			background-color: white;
+		}
+	}
+}

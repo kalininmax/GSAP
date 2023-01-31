@@ -1,0 +1,21 @@
+<div class="smooth-scroll-locomotive">
+	<div class="smooth-scroll-locomotive__container">
+		<div class="content">
+			<h1>Smooth Scrolling with Locomotive Scroll lib</h1>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit magni iste tenetur officia quas voluptas ut cupiditate praesentium. Fugiat maiores voluptas soluta vero, facilis, labore ea laborum illum iure suscipit voluptatem rem excepturi officiis, inventore consequatur laudantium officia corrupti doloribus magnam nesciunt asperiores vitae impedit!</p>
+			<p>Quidem tempora repellat tenetur aut nam a voluptates expedita placeat! At porro assumenda, deleniti nulla neque quos ex eos vero, ipsum quae dicta cumque. Nesciunt recusandae quisquam nihil expedita consequuntur, in blanditiis, natus et suscipit velit accusamus sed tempora enim. Laudantium molestias amet magnam delectus quis? Hic ducimus beatae vero alias repellat dignissimos velit sint nesciunt voluptas doloremque voluptate, inventore possimus expedita suscipit ipsum totam aut, consequatur cum vitae deleniti! Sit in, molestiae porro voluptatum minus expedita atque sapiente dicta earum odio, aliquid maiores ullam?</p>
+			<p>Optio, sunt obcaecati! Natus, facere neque magnam doloremque dignissimos repellat voluptates accusamus doloribus, porro, deserunt consectetur iste excepturi velit quas modi dolore libero. Dolores consequatur fugiat saepe illo vel? Deleniti ea quo maiores vitae, ipsum quidem quisquam repellat hic pariatur ipsa eos atque eaque id iste laborum ab nesciunt quia officia, magnam nemo facilis beatae eius amet. Iure praesentium dolorem, ullam sit modi quos illum.</p>
+		</div>
+		<div class="svg-wrapper _clock">
+			{% include "../../assets/images/scroll-trigger/clock.svg" %}
+		</div>
+
+		 <div class="content">
+			<h2>More text</h2>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit magni iste tenetur officia quas voluptas ut cupiditate praesentium. Fugiat maiores voluptas soluta vero, facilis, labore ea laborum illum iure suscipit voluptatem rem excepturi officiis, inventore consequatur laudantium officia corrupti doloribus magnam nesciunt asperiores vitae impedit!</p>
+			<p>Quidem tempora repellat tenetur aut nam a voluptates expedita placeat! At porro assumenda, deleniti nulla neque quos ex eos vero, ipsum quae dicta cumque. Nesciunt recusandae quisquam nihil expedita consequuntur, in blanditiis, natus et suscipit velit accusamus sed tempora enim. Laudantium molestias amet magnam delectus quis? Hic ducimus beatae vero alias repellat dignissimos velit sint nesciunt voluptas doloremque voluptate, inventore possimus expedita suscipit ipsum totam aut, consequatur cum vitae deleniti! Sit in, molestiae porro voluptatum minus expedita atque sapiente dicta earum odio, aliquid maiores ullam?</p>
+			<p>Optio, sunt obcaecati! Natus, facere neque magnam doloremque dignissimos repellat voluptates accusamus doloribus, porro, deserunt consectetur iste excepturi velit quas modi dolore libero. Dolores consequatur fugiat saepe illo vel? Deleniti ea quo maiores vitae, ipsum quidem quisquam repellat hic pariatur ipsa eos atque eaque id iste laborum ab nesciunt quia officia, magnam nemo facilis beatae eius amet. Iure praesentium dolorem, ullam sit modi quos illum.</p>
+		</div>
+		</div>
+	</div>
+</div>

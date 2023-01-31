@@ -1,0 +1,45 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+			<defs>
+				<style>
+					.cls-1 {
+						fill: #323232;
+					}
+
+					.cls-2 {
+						fill: none;
+						stroke: #f6c;
+						stroke-linejoin: round;
+						stroke-width: 8px;
+					}
+
+					.cls-3 {
+						fill: #a4a4a4;
+					}
+
+					.cls-4 {
+						fill: #ccc;
+					}
+				</style>
+			</defs>
+			<g id="bg">
+				<g id="Layer3_0_FILL" data-name="Layer3 0 FILL">
+					<path class="cls-1" d="M400,400V0H0V400Z"/>
+				</g>
+			</g>
+			<g id="face">
+				<g id="Layer2_0_FILL" data-name="Layer2 0 FILL">
+					<path d="M200,181.5a18.5,18.5,0,0,0,0,37,18.5,18.5,0,0,0,0-37Z"/>
+				</g>
+				<path id="Layer2_0_1_STROKES" data-name="Layer2 0 1 STROKES" class="cls-2" d="M388.5,200q0,78.11-55.2,133.3T200,388.5q-78.1,0-133.3-55.2T11.5,200q0-78.1,55.2-133.3T200,11.5q78.11,0,133.3,55.2T388.5,200Z"/>
+			</g>
+			<g id="smallHand">
+				<g id="smallHand_0_Layer0_0_FILL" data-name="smallHand 0 Layer0 0 FILL">
+					<path class="cls-3" d="M195,69V200h10V69l-5-10.25Z"/>
+				</g>
+			</g>
+			<g id="bigHand">
+				<g id="bigHand_0_Layer0_0_FILL" data-name="bigHand 0 Layer0 0 FILL">
+					<path class="cls-4" d="M195,44V200h10V44l-5-10.25Z"/>
+				</g>
+			</g>
+		</svg>

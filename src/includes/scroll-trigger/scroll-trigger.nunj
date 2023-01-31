@@ -1,12 +1,10 @@
 <div class="scroll-trigger">
 	<section class="scroll-trigger__section _first h-100vh">
-		<p>Scroll down to trigger the animation</p>
+		<p>Scroll down</p>
 	</section>
-	<div class="scroll-trigger__section-wrapper _car">
-		<section class="scroll-trigger__section _car">
-			<div class="svg-wrapper">{% include "../../assets/images/scroll-trigger/car.svg" %}</div>
-		</section>
-	</div>
+	<section class="scroll-trigger__section _car">
+		<div class="svg-wrapper">{% include "../../assets/images/scroll-trigger/car.svg" %}</div>
+	</section>
 	<section class="scroll-trigger__section _text">
 		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit magni iste tenetur officia quas voluptas ut cupiditate praesentium. Fugiat maiores voluptas soluta vero, facilis, labore ea laborum illum iure suscipit voluptatem rem excepturi officiis, inventore consequatur laudantium officia corrupti doloribus magnam nesciunt asperiores vitae impedit!</p>
 		<p>Quidem tempora repellat tenetur aut nam a voluptates expedita placeat! At porro assumenda, deleniti nulla neque quos ex eos vero, ipsum quae dicta cumque. Nesciunt recusandae quisquam nihil expedita consequuntur, in blanditiis, natus et suscipit velit accusamus sed tempora enim. Laudantium molestias amet magnam delectus quis? Hic ducimus beatae vero alias repellat dignissimos velit sint nesciunt voluptas doloremque voluptate, inventore possimus expedita suscipit ipsum totam aut, consequatur cum vitae deleniti! Sit in, molestiae porro voluptatum minus expedita atque sapiente dicta earum odio, aliquid maiores ullam?</p>
@@ -19,6 +17,79 @@
 			<p>CreativeCodingClub.com</p>
 		</div>
 		<p class="text">Discover the joy of animating with code</p>
+	</section>
+	<section class="scroll-trigger__section _text">
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit magni iste tenetur officia quas voluptas ut cupiditate praesentium. Fugiat maiores voluptas soluta vero, facilis, labore ea laborum illum iure suscipit voluptatem rem excepturi officiis, inventore consequatur laudantium officia corrupti doloribus magnam nesciunt asperiores vitae impedit!</p>
+		<p>Quidem tempora repellat tenetur aut nam a voluptates expedita placeat! At porro assumenda, deleniti nulla neque quos ex eos vero, ipsum quae dicta cumque. Nesciunt recusandae quisquam nihil expedita consequuntur, in blanditiis, natus et suscipit velit accusamus sed tempora enim. Laudantium molestias amet magnam delectus quis? Hic ducimus beatae vero alias repellat dignissimos velit sint nesciunt voluptas doloremque voluptate, inventore possimus expedita suscipit ipsum totam aut, consequatur cum vitae deleniti! Sit in, molestiae porro voluptatum minus expedita atque sapiente dicta earum odio, aliquid maiores ullam?</p>
+		<p>Optio, sunt obcaecati! Natus, facere neque magnam doloremque dignissimos repellat voluptates accusamus doloribus, porro, deserunt consectetur iste excepturi velit quas modi dolore libero. Dolores consequatur fugiat saepe illo vel? Deleniti ea quo maiores vitae, ipsum quidem quisquam repellat hic pariatur ipsa eos atque eaque id iste laborum ab nesciunt quia officia, magnam nemo facilis beatae eius amet. Iure praesentium dolorem, ullam sit modi quos illum.</p>
+		<p>Saepe sint iusto dicta incidunt ipsum, autem culpa numquam sit odio quam consectetur eos reprehenderit maxime quisquam earum itaque molestiae expedita, suscipit reiciendis.</p>
+		<p>Ullam suscipit modi numquam, molestias maxime repellat dolor obcaecati quasi cum quae consequuntur voluptatem vel nam deleniti minus ipsum? Soluta consectetur minus ipsam ratione beatae praesentium sint earum mollitia! Consequatur perferendis dolore ipsa maxime, natus saepe ab eum at. Temporibus, voluptates cupiditate?</p>
+	</section>
+	<section class="scroll-trigger__section _basic-parallax h-100vh">
+		<img class="stars" src="/assets/images/scroll-trigger/parallax-mountain-stars.webp" />
+		<img class="background" src="/assets/images/scroll-trigger/background.webp" />
+		<img class="middleground" src="/assets/images/scroll-trigger/middleground.webp" />
+		<img class="foreground" src="/assets/images/scroll-trigger/foreground.webp" />
+		<p class="text">Night drive</p>
+	</section>
+	<section class="scroll-trigger__section _car-parallax h-100vh">
+		<div class="svg-wrapper">{% include "../../assets/images/scroll-trigger/car-parallax.svg" %}</div>
+	</section>
+	<section class="scroll-trigger__section _text">
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit magni iste tenetur officia quas voluptas ut cupiditate praesentium. Fugiat maiores voluptas soluta vero, facilis, labore ea laborum illum iure suscipit voluptatem rem excepturi officiis, inventore consequatur laudantium officia corrupti doloribus magnam nesciunt asperiores vitae impedit!</p>
+		<p>Quidem tempora repellat tenetur aut nam a voluptates expedita placeat! At porro assumenda, deleniti nulla neque quos ex eos vero, ipsum quae dicta cumque. Nesciunt recusandae quisquam nihil expedita consequuntur, in blanditiis, natus et suscipit velit accusamus sed tempora enim. Laudantium molestias amet magnam delectus quis? Hic ducimus beatae vero alias repellat dignissimos velit sint nesciunt voluptas doloremque voluptate, inventore possimus expedita suscipit ipsum totam aut, consequatur cum vitae deleniti! Sit in, molestiae porro voluptatum minus expedita atque sapiente dicta earum odio, aliquid maiores ullam?</p>
+		<p>Optio, sunt obcaecati! Natus, facere neque magnam doloremque dignissimos repellat voluptates accusamus doloribus, porro, deserunt consectetur iste excepturi velit quas modi dolore libero. Dolores consequatur fugiat saepe illo vel? Deleniti ea quo maiores vitae, ipsum quidem quisquam repellat hic pariatur ipsa eos atque eaque id iste laborum ab nesciunt quia officia, magnam nemo facilis beatae eius amet. Iure praesentium dolorem, ullam sit modi quos illum.</p>
+		<p>Saepe sint iusto dicta incidunt ipsum, autem culpa numquam sit odio quam consectetur eos reprehenderit maxime quisquam earum itaque molestiae expedita, suscipit reiciendis.</p>
+		<p>Ullam suscipit modi numquam, molestias maxime repellat dolor obcaecati quasi cum quae consequuntur voluptatem vel nam deleniti minus ipsum? Soluta consectetur minus ipsam ratione beatae praesentium sint earum mollitia! Consequatur perferendis dolore ipsa maxime, natus saepe ab eum at. Temporibus, voluptates cupiditate?</p>
+	</section>
+	<section class="scroll-trigger__section _car-ad-parallax _gti">
+		<div class="background"></div>
+		<div class="foreground">
+			<p class="title">1983 VW Rabbit GTI</p>
+			<p class="text">253k miles</p>
+		</div>
+	</section>
+	<section class="scroll-trigger__section _text">
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit magni iste tenetur officia quas voluptas ut cupiditate praesentium. Fugiat maiores voluptas soluta vero, facilis, labore ea laborum illum iure suscipit voluptatem rem excepturi officiis, inventore consequatur laudantium officia corrupti doloribus magnam nesciunt asperiores vitae impedit!</p>
+		<p>Quidem tempora repellat tenetur aut nam a voluptates expedita placeat! At porro assumenda, deleniti nulla neque quos ex eos vero, ipsum quae dicta cumque. Nesciunt recusandae quisquam nihil expedita consequuntur, in blanditiis, natus et suscipit velit accusamus sed tempora enim. Laudantium molestias amet magnam delectus quis? Hic ducimus beatae vero alias repellat dignissimos velit sint nesciunt voluptas doloremque voluptate, inventore possimus expedita suscipit ipsum totam aut, consequatur cum vitae deleniti! Sit in, molestiae porro voluptatum minus expedita atque sapiente dicta earum odio, aliquid maiores ullam?</p>
+		<p>Optio, sunt obcaecati! Natus, facere neque magnam doloremque dignissimos repellat voluptates accusamus doloribus, porro, deserunt consectetur iste excepturi velit quas modi dolore libero. Dolores consequatur fugiat saepe illo vel? Deleniti ea quo maiores vitae, ipsum quidem quisquam repellat hic pariatur ipsa eos atque eaque id iste laborum ab nesciunt quia officia, magnam nemo facilis beatae eius amet. Iure praesentium dolorem, ullam sit modi quos illum.</p>
+		<p>Saepe sint iusto dicta incidunt ipsum, autem culpa numquam sit odio quam consectetur eos reprehenderit maxime quisquam earum itaque molestiae expedita, suscipit reiciendis.</p>
+		<p>Ullam suscipit modi numquam, molestias maxime repellat dolor obcaecati quasi cum quae consequuntur voluptatem vel nam deleniti minus ipsum? Soluta consectetur minus ipsam ratione beatae praesentium sint earum mollitia! Consequatur perferendis dolore ipsa maxime, natus saepe ab eum at. Temporibus, voluptates cupiditate?</p>
+	</section>
+	<section class="scroll-trigger__section _car-ad-parallax _miata">
+		<div class="background"></div>
+		<div class="foreground">
+			<p class="title">1995 Mazda Miata</p>
+			<p class="text">10k miles</p>
+		</div>
+	</section>
+	<section class="scroll-trigger__section _text">
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit magni iste tenetur officia quas voluptas ut cupiditate praesentium. Fugiat maiores voluptas soluta vero, facilis, labore ea laborum illum iure suscipit voluptatem rem excepturi officiis, inventore consequatur laudantium officia corrupti doloribus magnam nesciunt asperiores vitae impedit!</p>
+		<p>Quidem tempora repellat tenetur aut nam a voluptates expedita placeat! At porro assumenda, deleniti nulla neque quos ex eos vero, ipsum quae dicta cumque. Nesciunt recusandae quisquam nihil expedita consequuntur, in blanditiis, natus et suscipit velit accusamus sed tempora enim. Laudantium molestias amet magnam delectus quis? Hic ducimus beatae vero alias repellat dignissimos velit sint nesciunt voluptas doloremque voluptate, inventore possimus expedita suscipit ipsum totam aut, consequatur cum vitae deleniti! Sit in, molestiae porro voluptatum minus expedita atque sapiente dicta earum odio, aliquid maiores ullam?</p>
+		<p>Optio, sunt obcaecati! Natus, facere neque magnam doloremque dignissimos repellat voluptates accusamus doloribus, porro, deserunt consectetur iste excepturi velit quas modi dolore libero. Dolores consequatur fugiat saepe illo vel? Deleniti ea quo maiores vitae, ipsum quidem quisquam repellat hic pariatur ipsa eos atque eaque id iste laborum ab nesciunt quia officia, magnam nemo facilis beatae eius amet. Iure praesentium dolorem, ullam sit modi quos illum.</p>
+		<p>Saepe sint iusto dicta incidunt ipsum, autem culpa numquam sit odio quam consectetur eos reprehenderit maxime quisquam earum itaque molestiae expedita, suscipit reiciendis.</p>
+		<p>Ullam suscipit modi numquam, molestias maxime repellat dolor obcaecati quasi cum quae consequuntur voluptatem vel nam deleniti minus ipsum? Soluta consectetur minus ipsam ratione beatae praesentium sint earum mollitia! Consequatur perferendis dolore ipsa maxime, natus saepe ab eum at. Temporibus, voluptates cupiditate?</p>
+	</section>
+	<section class="scroll-trigger__section _car-ad-parallax _supra">
+		<div class="background"></div>
+		<div class="foreground">
+			<p class="title">1994 Toyota Supra</p>
+			<p class="text">86k miles</p>
+		</div>
+	</section>
+	<section class="scroll-trigger__section _text">
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit magni iste tenetur officia quas voluptas ut cupiditate praesentium. Fugiat maiores voluptas soluta vero, facilis, labore ea laborum illum iure suscipit voluptatem rem excepturi officiis, inventore consequatur laudantium officia corrupti doloribus magnam nesciunt asperiores vitae impedit!</p>
+		<p>Quidem tempora repellat tenetur aut nam a voluptates expedita placeat! At porro assumenda, deleniti nulla neque quos ex eos vero, ipsum quae dicta cumque. Nesciunt recusandae quisquam nihil expedita consequuntur, in blanditiis, natus et suscipit velit accusamus sed tempora enim. Laudantium molestias amet magnam delectus quis? Hic ducimus beatae vero alias repellat dignissimos velit sint nesciunt voluptas doloremque voluptate, inventore possimus expedita suscipit ipsum totam aut, consequatur cum vitae deleniti! Sit in, molestiae porro voluptatum minus expedita atque sapiente dicta earum odio, aliquid maiores ullam?</p>
+		<p>Optio, sunt obcaecati! Natus, facere neque magnam doloremque dignissimos repellat voluptates accusamus doloribus, porro, deserunt consectetur iste excepturi velit quas modi dolore libero. Dolores consequatur fugiat saepe illo vel? Deleniti ea quo maiores vitae, ipsum quidem quisquam repellat hic pariatur ipsa eos atque eaque id iste laborum ab nesciunt quia officia, magnam nemo facilis beatae eius amet. Iure praesentium dolorem, ullam sit modi quos illum.</p>
+		<p>Saepe sint iusto dicta incidunt ipsum, autem culpa numquam sit odio quam consectetur eos reprehenderit maxime quisquam earum itaque molestiae expedita, suscipit reiciendis.</p>
+		<p>Ullam suscipit modi numquam, molestias maxime repellat dolor obcaecati quasi cum quae consequuntur voluptatem vel nam deleniti minus ipsum? Soluta consectetur minus ipsam ratione beatae praesentium sint earum mollitia! Consequatur perferendis dolore ipsa maxime, natus saepe ab eum at. Temporibus, voluptates cupiditate?</p>
+	</section>
+	<section class="scroll-trigger__section _car-ad-parallax _cayman">
+		<div class="background"></div>
+		<div class="foreground">
+			<p class="title">2006 Porsche Cayman S</p>
+			<p class="text">33k miles</p>
+		</div>
 	</section>
 	<section class="scroll-trigger__section _last h-100vh">
 		<p>Last section on the page</p>

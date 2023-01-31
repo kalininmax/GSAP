@@ -1,14 +1,15 @@
 .scroll-trigger {
 	overflow: hidden;
+	background-color: white;
 	&__section {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		box-sizing: border-box;
+		width: 100%;
 		padding: 2.5rem;
 		padding-top: 76px;
-		border-bottom: 1px solid currentColor;
 		font-size: 2.5rem;
 		font-weight: 700;
 		text-align: center;
@@ -22,6 +23,10 @@
 		}
 		&._first {
 			height: calc(100vh - 76px);
+			font-size: 16vmin;
+			color: #ccc;
+			background-color: #263238;
+			text-transform: capitalize;
 		}
 		&._last {
 			color: #ccc;
@@ -43,6 +48,9 @@
 		}
 		&._car {
 			align-items: flex-start;
+			.svg-wrapper {
+				width: 35vmin;
+			}
 		}
 		&._ad {
 			> * {
@@ -50,45 +58,105 @@
 			}
 			.logo p {
 				box-sizing: border-box;
-				font-size: 3rem;
+				font-size: 7vmin;
 				line-height: 1.5;
 				font-weight: 700;
 				color: white;
 				background: #f39;
 			}
 			.text {
+				margin-top: 0.5rem;
 				overflow: hidden;
-				font-size: 1.5rem;
+				font-size: 3vmin;
 				text-align: center;
 			}
-			@media (max-width: 767px) {
-				.logo p {
-					font-size: 2rem;
-				}
-				.text {
-					font-size: 1rem;
+		}
+		&._basic-parallax {
+			position: relative;
+			padding: 0;
+			background-color: #263238;
+			overflow: hidden;
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				filter: brightness(1.3);
+				&.foreground {
+					top: 0.5%;
 				}
 			}
-			@media (max-width: 565px) {
-				.logo p {
-					font-size: 1.5rem;
+			.text {
+				position: absolute;
+				top: 5%;
+				left: 0;
+				width: 100%;
+				font-family: system-ui;
+				font-size: 20vmin;
+				font-weight: 300;
+				letter-spacing: 0.06em;
+				text-transform: lowercase;
+				color: #9999cb;
+			}
+		}
+		&._car-parallax {
+			.svg-wrapper {
+				width: 50vmin;
+			}
+		}
+		&._car-ad-parallax {
+			position: relative;
+			min-height: 70vmin;
+			overflow: hidden;
+			.background {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-size: cover;
+				background-position: center;
+				filter: brightness(1);
+			}
+			.foreground {
+				position: absolute;
+				top: 5%;
+				left: 2.5%;
+				text-align: left;
+				color: white;
+				text-shadow: 3px 3px 6px black;
+				p {
+					margin: 0;
 				}
-				.text {
-					font-size: 1rem;
+			}
+			&._gti {
+				.background {
+					background-image: url('/assets/images/scroll-trigger/gti.webp');
+				}
+			}
+			&._miata {
+				.background {
+					background-image: url('/assets/images/scroll-trigger/miata.webp');
+				}
+			}
+			&._supra {
+				.background {
+					background-image: url('/assets/images/scroll-trigger/supra.webp');
+				}
+			}
+			&._cayman {
+				.background {
+					background-image: url('/assets/images/scroll-trigger/cayman.webp');
 				}
 			}
 		}
 	}
 	.svg-wrapper {
-		width: 25vw;
 		svg {
 			width: 100%;
 			height: auto;
-		}
-	}
-	&__section-wrapper {
-		&._car {
-			background-color: white;
 		}
 	}
 }

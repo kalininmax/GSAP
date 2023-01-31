@@ -22,7 +22,8 @@ class GSAP {
 			BasicTween: require('../../includes/basic-tween/basic-tween'),
 			Timelines: require('../../includes/timelines/timelines'),
 			BeyondBasics: require('../../includes/beyond-basics/beyond-basics'),
-			ScrollTriggerPage: require('../../includes/scroll-trigger/scroll-trigger'),
+			ScrollTriggerBasics: require('../../includes/scroll-trigger/scroll-trigger'),
+			SmoothScrollLocomotive: require('../../includes/smooth-scroll-locomotive/smooth-scroll-locomotive'),
 		};
 		this.helpers = {};
 		this.modules = {

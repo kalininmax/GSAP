@@ -1,0 +1,43 @@
+.smooth-scroll-locomotive {
+	padding: 2.5rem;
+	color: black;
+	background-color: white;
+	&__container {
+		width: 80%;
+		margin-inline: auto;
+		@media (max-width: 767px) {
+			width: auto;
+		}
+	}
+	h1 {
+		margin-bottom: 1.5rem;
+		font-size: 4rem;
+	}
+	h2 {
+		margin-bottom: 1.5rem;
+		font-size: 3rem;
+	}
+	p {
+		margin-bottom: 1.5rem;
+		font-size: 2rem;
+		font-weight: 400;
+	}
+	@media (max-width: 767px) {
+		p {
+			width: auto;
+			font-size: 1.2rem;
+		}
+	}
+
+	.svg-wrapper {
+		&._clock {
+			width: 60vmin;
+			margin-inline: auto;
+			margin-bottom: 1.5rem;
+		}
+		svg {
+			width: 100%;
+			height: auto;
+		}
+	}
+}

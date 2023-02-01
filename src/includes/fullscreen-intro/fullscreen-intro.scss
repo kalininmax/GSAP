@@ -1,0 +1,62 @@
+.fullscreen-intro {
+	background-color: white;
+	overflow: hidden;
+	&__hero {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: calc(100vh - 75px);
+		overflow: hidden;
+	}
+	&__animation {
+		display: flex;
+		align-items: center;
+		column-gap: 20px;
+		visibility: hidden;
+	}
+	&__words {
+		display: grid;
+		width: max-content;
+		max-width: 100%;
+		> * {
+			grid-area: 1/1;
+		}
+	}
+	&__rotator {
+		display: grid;
+		align-items: center;
+		> * {
+			grid-area: 1/1;
+		}
+	}
+	&__circle {
+		position: fixed;
+		top: 50%;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		background-color: #029999;
+		visibility: hidden;
+	}
+	&__content {
+		display: none;
+		position: relative;
+		color: black;
+		background-color: white;
+		padding: 50px;
+		font-size: 1.2em;
+		h2,
+		p {
+			margin-bottom: 1em;
+		}
+	}
+	.h1 {
+		font-size: 2em;
+		line-height: 1.3;
+		font-weight: 700;
+	}
+	.h2 {
+		font-size: 1.3em;
+		line-height: 1;
+	}
+}

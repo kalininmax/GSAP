@@ -1,0 +1,6 @@
+<div class="back-to-top">
+	<div class="back-to-top__link-wrapper">
+		<a href="#top">Go back to top</a>
+	</div>
+	<img class="back-to-top__herman" src="/assets/images/herman.svg" width="80" height="80"/>
+</div>

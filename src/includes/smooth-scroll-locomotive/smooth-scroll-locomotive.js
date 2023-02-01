@@ -37,13 +37,13 @@ class SmoothScrollLocomotive {
 			pinType: this.container.style.transform ? 'transform' : 'fixed',
 		});
 
-		this._initClockAnimation();
-
 		// Each time the window updates, we should refresh ScrollTrigger and then update LocomotiveScroll.
 		ScrollTrigger.addEventListener('refresh', () => locoScroll.update());
 
 		// After everything is set up, refresh() ScrollTrigger and update LocomotiveScroll because padding may have been added for pinning, etc.
 		ScrollTrigger.refresh();
+
+		this._initClockAnimation();
 	}
 	_initClockAnimation() {
 		const clockWrapper = this.container.querySelector('.svg-wrapper._clock');

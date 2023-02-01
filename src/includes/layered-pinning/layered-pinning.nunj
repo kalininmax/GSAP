@@ -1,0 +1,15 @@
+<div class="layered-pinning">
+	<div class="layered-pinning__container">
+		<section class="layered-pinning__section _first">
+			<p class="layered-pinning__title">Layered Pinning<br> from Bottom</p>
+			<p class="layered-pinning__scroll-down">
+				Scroll down
+			</p>
+		</section>
+		<section class="layered-pinning__section _red">One</section>
+		<section class="layered-pinning__section _orange">Two</section>
+		<section class="layered-pinning__section _purple">Three</section>
+		<section class="layered-pinning__section _green">Four</section>
+		<section class="layered-pinning__section _gray">Five</section>
+	</div>
+</div>

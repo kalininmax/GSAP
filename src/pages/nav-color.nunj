@@ -1,9 +1,9 @@
 {% extends "../templates/base.nunj" %}
 
-{% block title %}Timelines | {{ super() }}{% endblock title %}
+{% block title %}Change Nav Color on Scroll  | {{ super() }}{% endblock title %}
 
 {% block content %}
 	{% include "../includes/header/header.nunj" %}
-	{% include "../includes/timelines/timelines.nunj" %}
+	{% include "../includes/nav-color/nav-color.nunj" %}
 	{% include "../includes/back-to-top/back-to-top.nunj" %}
 {% endblock %}

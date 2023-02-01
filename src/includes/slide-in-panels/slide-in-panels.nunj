@@ -1,0 +1,17 @@
+<div class="slide-in-panels">
+	<section class="slide-in-panels__section _first">
+		<p class="slide-in-panels__title">Slide-in panels</p>
+		<p class="slide-in-panels__scroll-down">
+			Scroll down
+		</p>
+	</section>
+	<div class="slide-in-panels__container-wrapper">
+		<div class="slide-in-panels__container">
+			<section class="slide-in-panels__section _red">One</section>
+			<section class="slide-in-panels__section _orange">Two</section>
+			<section class="slide-in-panels__section _purple">Three</section>
+			<section class="slide-in-panels__section _green">Four</section>
+			<section class="slide-in-panels__section _gray">Five</section>
+		</div>
+	</div>
+</div>

@@ -9,7 +9,7 @@
 		box-sizing: border-box;
 		width: 100%;
 		padding: 2.5rem;
-		padding-top: 76px;
+		padding-top: 75px;
 		font-size: 2.5rem;
 		font-weight: 700;
 		text-align: center;
@@ -22,7 +22,7 @@
 			margin-bottom: 1.5rem;
 		}
 		&._first {
-			height: calc(100vh - 76px);
+			height: calc(100vh - 75px);
 			font-size: 16vmin;
 			color: #ccc;
 			background-color: #263238;

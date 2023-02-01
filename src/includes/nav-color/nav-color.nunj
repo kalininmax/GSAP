@@ -1,0 +1,7 @@
+<div class="nav-color">
+	<section class="nav-color__section _first">Dodger blue</section>
+	<section class="nav-color__section h-100vh">Salmon</section>
+	<section class="nav-color__section h-100vh">Green</section>
+	<section class="nav-color__section h-100vh">Purple</section>
+	<section class="nav-color__section h-100vh">Maroon</section>
+</div>

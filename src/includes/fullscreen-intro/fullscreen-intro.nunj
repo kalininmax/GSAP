@@ -1,0 +1,31 @@
+<div class="fullscreen-intro">
+	<div class="fullscreen-intro__circle"></div>
+
+	<div class="fullscreen-intro__hero">
+		<div class="fullscreen-intro__animation">
+			<img class="fullscreen-intro__logo" src="/assets/images/scroll-trigger/company-logo.svg" width="100" height="100">
+			<div class="fullscreen-intro__words">
+				<div class="fullscreen-intro__headings">
+					<p class="h1">The Company</p>
+					<p class="h2">Welcome to this site</p>
+				</div>
+				<div class="fullscreen-intro__rotator">
+					<p class="h1">Our mission is to be the best</p>
+					<p class="h1">Our values align with your values</p>
+					<p class="h1">We have integrity and honor</p>
+					<p class="h1">Our customers are extremely satisfied</p>
+					<p class="h1">There is no competition</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="fullscreen-intro__content">
+		<h2>More Content</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut neque lacus, commodo sit amet odio quis, ultrices convallis risus. Maecenas dictum sapien urna, vitae finibus tellus porta imperdiet. Pellentesque quis mi in enim sollicitudin commodo sed in augue. Morbi ut magna non ex fermentum hendrerit. Nam ac nulla tortor.</p>
+		<p>Proin sagittis erat enim, id vestibulum eros pretium dignissim. Nunc fringilla hendrerit leo pellentesque bibendum. Mauris nec eleifend leo. Sed posuere et mauris ut posuere. Proin commodo augue sed eleifend convallis. Sed malesuada nibh fermentum, tincidunt nunc sit amet, fringilla mi.</p>
+		<p>Proin sagittis erat enim, id vestibulum eros pretium dignissim. Nunc fringilla hendrerit leo pellentesque bibendum. Mauris nec eleifend leo. Sed posuere et mauris ut posuere. Proin commodo augue sed eleifend convallis. Sed malesuada nibh fermentum, tincidunt nunc sit amet, fringilla mi.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut neque lacus, commodo sit amet odio quis, ultrices convallis risus. Maecenas dictum sapien urna, vitae finibus tellus porta imperdiet. Pellentesque quis mi in enim sollicitudin commodo sed in augue. Morbi ut magna non ex fermentum hendrerit. Nam ac nulla tortor.</p>
+		<p>Proin sagittis erat enim, id vestibulum eros pretium dignissim. Nunc fringilla hendrerit leo pellentesque bibendum. Mauris nec eleifend leo. Sed posuere et mauris ut posuere. Proin commodo augue sed eleifend convallis. Sed malesuada nibh fermentum, tincidunt nunc sit amet, fringilla mi.</p>
+	</div>
+</div>

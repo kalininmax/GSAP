@@ -5,11 +5,23 @@
 		<nav>
 			<ul class="header__list">
 				<li><a href="/">Home</a></li>
-				<li><a href="/basic-tween.html">Basic Tween</a></li>
-				<li><a href="/timelines.html">Timelines</a></li>
+				<li class="submenu">Basics
+					<ul>
+						<li><a href="/basic-tween.html">Basic Tween</a></li>
+						<li><a href="/timelines.html">Timelines</a></li>
+					</ul>
+				</li>
 				<li><a href="/beyond-the-basics.html">Beyond the Basics</a></li>
-				<li><a href="/scroll-trigger.html">ScrollTrigger Basics</a></li>
-				<li><a href="/smooth-scroll-locomotive.html">Smooth Scrolling</a></li>
+				<li class="submenu">ScrollTrigger
+					<ul>
+						<li><a href="/scroll-trigger.html">ScrollTrigger Basics</a></li>
+						<li><a href="/smooth-scroll-locomotive.html">Smooth Scrolling</a></li>
+						<li><a href="/fullscreen-intro.html">Fullscreen Intro</a></li>
+						<li><a href="/nav-color.html">Nav Color</a></li>
+						<li><a href="/slide-in-panels.html">Slide-in panels</a></li>
+						<li><a href="/layered-pinning.html">Layered Pinning</a></li>
+					</ul>
+				</li>
 			</ul>
 		</nav>
 	</div>

@@ -1,0 +1,31 @@
+.back-to-top {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	display: grid;
+	font-weight: 700;
+	overflow: hidden;
+	visibility: hidden;
+	> * {
+		grid-area: 1/1;
+	}
+	&__link-wrapper {
+		display: flex;
+		align-items: center;
+		margin-left: 65px;
+		margin-top: 10px;
+		overflow: hidden;
+		a {
+			width: 120px;
+			color: #f60;
+			background: black;
+			padding: 16px 16px 16px 30px;
+			border-radius: 0 20px 20px 0;
+		}
+	}
+	&__herman {
+		position: relative;
+		z-index: 2;
+	}
+}

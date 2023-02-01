@@ -19,11 +19,17 @@ class GSAP {
 			// Signal: require('./classes/Signal').default,
 		};
 		this.components = {
-			BasicTween: require('../../includes/basic-tween/basic-tween'),
-			Timelines: require('../../includes/timelines/timelines'),
-			BeyondBasics: require('../../includes/beyond-basics/beyond-basics'),
-			ScrollTriggerBasics: require('../../includes/scroll-trigger/scroll-trigger'),
-			SmoothScrollLocomotive: require('../../includes/smooth-scroll-locomotive/smooth-scroll-locomotive'),
+			BasicTween: require('../../includes/basic-tween/basic-tween').default,
+			Timelines: require('../../includes/timelines/timelines').default,
+			BeyondBasics: require('../../includes/beyond-basics/beyond-basics').default,
+			ScrollTriggerBasics: require('../../includes/scroll-trigger/scroll-trigger').default,
+			SmoothScrollLocomotive:
+				require('../../includes/smooth-scroll-locomotive/smooth-scroll-locomotive').default,
+			FullscreenIntro: require('../../includes/fullscreen-intro/fullscreen-intro').default,
+			BackToTop: require('../../includes/back-to-top/back-to-top').default,
+			NavColor: require('../../includes/nav-color/nav-color').default,
+			SlideInPanels: require('../../includes/slide-in-panels/slide-in-panels').default,
+			LayeredPinning: require('../../includes/layered-pinning/layered-pinning').default,
 		};
 		this.helpers = {};
 		this.modules = {
@@ -44,6 +50,8 @@ class GSAP {
 						ease: 'back(1.1)',
 					});
 			}
+
+			new this.components.BackToTop();
 		});
 	}
 }

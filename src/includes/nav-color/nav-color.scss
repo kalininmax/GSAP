@@ -1,0 +1,12 @@
+.nav-color {
+	&__section {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 15vmin;
+		text-transform: uppercase;
+		&._first {
+			height: calc(100vh - 75px);
+		}
+	}
+}

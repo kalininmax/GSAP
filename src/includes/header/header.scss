@@ -1,15 +1,46 @@
 .header {
+	--bg-color: #0a5b90;
+	position: sticky;
+	z-index: 10;
+	top: 0;
+	left: 0;
 	box-sizing: border-box;
+	box-shadow: 0 2px 5px rgba(black, 0.3);
+	width: 100%;
 	padding: 24px 10px;
-	border-bottom: 1px solid currentColor;
+	background-color: var(--bg-color);
 	&__list {
-		overflow: auto;
 		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
 		gap: 24px;
 		font-size: 18px;
 		line-height: 1.5;
 		li {
+			position: relative;
 			flex-shrink: 0;
+			> ul {
+				position: absolute;
+				visibility: hidden;
+				top: 100%;
+				left: 0;
+				padding: 10px 0;
+				background-color: var(--bg-color);
+				box-shadow: 0 2px 5px rgba(black, 0.3);
+				li {
+					width: max-content;
+					padding: 5px;
+					padding-inline: 1rem;
+				}
+			}
+			&.submenu {
+				text-decoration: underline;
+				&:hover {
+					> ul {
+						visibility: visible;
+					}
+				}
+			}
 		}
 	}
 }

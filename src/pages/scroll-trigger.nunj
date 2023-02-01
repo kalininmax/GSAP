@@ -5,4 +5,5 @@
 {% block content %}
 	{% include "../includes/header/header.nunj" %}
 	{% include "../includes/scroll-trigger/scroll-trigger.nunj" %}
+	{% include "../includes/back-to-top/back-to-top.nunj" %}
 {% endblock %}

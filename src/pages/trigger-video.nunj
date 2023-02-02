@@ -1,0 +1,9 @@
+{% extends "../templates/base.nunj" %}
+
+{% block title %}Trigger HTML5 Video | {{ super() }}{% endblock title %}
+
+{% block content %}
+	{% include "../includes/header/header.nunj" %}
+	{% include "../includes/trigger-video/trigger-video.nunj" %}
+	{% include "../includes/back-to-top/back-to-top.nunj" %}
+{% endblock %}

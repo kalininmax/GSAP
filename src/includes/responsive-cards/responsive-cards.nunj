@@ -1,0 +1,103 @@
+<div class="responsive-cards">
+	<section class="responsive-cards__section _first">
+		<h1 class="responsive-cards__title">Gallery of Wonders</h1>
+		<p class="responsive-cards__scroll-down">Scroll down</p>
+	</section>
+	<section class="responsive-cards__section">
+		<ul class="responsive-cards__list">
+			<li class="responsive-cards__item">
+				<div class="responsive-cards__item-col">
+					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
+				</div>
+				<div class="responsive-cards__item-col">
+					<p class="responsive-cards__item-title">Ozark Hills</p>
+          <p class="responsive-cards__item-text">These rolling hills are filled with lush wild flowers and trickling streams. From dusk til dawn the sun paints this lush landscape with every color of the rainbow. Plan a day hike the whole family can enjoy</p>
+				</div>
+			</li>
+			<li class="responsive-cards__item">
+				<div class="responsive-cards__item-col">
+					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
+				</div>
+				<div class="responsive-cards__item-col">
+					<p class="responsive-cards__item-title">Ozark Hills</p>
+					<p class="responsive-cards__item-text">These rolling hills are filled with lush wild flowers and trickling streams. From dusk til dawn the sun paints this lush landscape with every color of the rainbow. Plan a day hike the whole family can enjoy</p>
+				</div>
+			</li>
+			<li class="responsive-cards__item">
+				<div class="responsive-cards__item-col">
+					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
+				</div>
+				<div class="responsive-cards__item-col">
+					<p class="responsive-cards__item-title">Ozark Hills</p>
+          <p class="responsive-cards__item-text">These rolling hills are filled with lush wild flowers and trickling streams. From dusk til dawn the sun paints this lush landscape with every color of the rainbow. Plan a day hike the whole family can enjoy</p>
+				</div>
+			</li>
+			<li class="responsive-cards__item">
+				<div class="responsive-cards__item-col">
+					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
+				</div>
+				<div class="responsive-cards__item-col">
+					<p class="responsive-cards__item-title">Ozark Hills</p>
+          <p class="responsive-cards__item-text">These rolling hills are filled with lush wild flowers and trickling streams. From dusk til dawn the sun paints this lush landscape with every color of the rainbow. Plan a day hike the whole family can enjoy</p>
+				</div>
+			</li>
+			<li class="responsive-cards__item">
+				<div class="responsive-cards__item-col">
+					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
+				</div>
+				<div class="responsive-cards__item-col">
+					<p class="responsive-cards__item-title">Ozark Hills</p>
+          <p class="responsive-cards__item-text">These rolling hills are filled with lush wild flowers and trickling streams. From dusk til dawn the sun paints this lush landscape with every color of the rainbow. Plan a day hike the whole family can enjoy</p>
+				</div>
+			</li>
+			<li class="responsive-cards__item">
+				<div class="responsive-cards__item-col">
+					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
+				</div>
+				<div class="responsive-cards__item-col">
+					<p class="responsive-cards__item-title">Ozark Hills</p>
+          <p class="responsive-cards__item-text">These rolling hills are filled with lush wild flowers and trickling streams. From dusk til dawn the sun paints this lush landscape with every color of the rainbow. Plan a day hike the whole family can enjoy</p>
+				</div>
+			</li>
+			<li class="responsive-cards__item">
+				<div class="responsive-cards__item-col">
+					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
+				</div>
+				<div class="responsive-cards__item-col">
+					<p class="responsive-cards__item-title">Ozark Hills</p>
+					<p class="responsive-cards__item-text">These rolling hills are filled with lush wild flowers and trickling streams. From dusk til dawn the sun paints this lush landscape with every color of the rainbow. Plan a day hike the whole family can enjoy</p>
+				</div>
+			</li>
+			<li class="responsive-cards__item">
+				<div class="responsive-cards__item-col">
+					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
+				</div>
+				<div class="responsive-cards__item-col">
+					<p class="responsive-cards__item-title">Ozark Hills</p>
+          <p class="responsive-cards__item-text">These rolling hills are filled with lush wild flowers and trickling streams. From dusk til dawn the sun paints this lush landscape with every color of the rainbow. Plan a day hike the whole family can enjoy</p>
+				</div>
+			</li>
+			<li class="responsive-cards__item">
+				<div class="responsive-cards__item-col">
+					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
+				</div>
+				<div class="responsive-cards__item-col">
+					<p class="responsive-cards__item-title">Ozark Hills</p>
+          <p class="responsive-cards__item-text">These rolling hills are filled with lush wild flowers and trickling streams. From dusk til dawn the sun paints this lush landscape with every color of the rainbow. Plan a day hike the whole family can enjoy</p>
+				</div>
+			</li>
+			<li class="responsive-cards__item">
+				<div class="responsive-cards__item-col">
+					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
+				</div>
+				<div class="responsive-cards__item-col">
+					<p class="responsive-cards__item-title">Ozark Hills</p>
+          <p class="responsive-cards__item-text">These rolling hills are filled with lush wild flowers and trickling streams. From dusk til dawn the sun paints this lush landscape with every color of the rainbow. Plan a day hike the whole family can enjoy</p>
+				</div>
+			</li>
+		</ul>
+	</section>
+	<section class="responsive-cards__section _last">
+		<p>Last section on the page</p>
+	</section>
+</div>

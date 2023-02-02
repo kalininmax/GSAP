@@ -1,0 +1,9 @@
+{% extends "../templates/base.nunj" %}
+
+{% block title %}SVG Mega Scroll and Follow | {{ super() }}{% endblock title %}
+
+{% block content %}
+	{% include "../includes/header/header.nunj" %}
+	{% include "../includes/svg-mega-scroll/svg-mega-scroll.nunj" %}
+	{% include "../includes/back-to-top/back-to-top.nunj" %}
+{% endblock %}

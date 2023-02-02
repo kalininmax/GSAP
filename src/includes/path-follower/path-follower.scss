@@ -1,0 +1,38 @@
+.path-follower {
+	color: white;
+	background-color: black;
+	&__section {
+		box-sizing: border-box;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&._first {
+			height: calc(100vh - 75px);
+			font-size: 10vmin;
+			text-align: center;
+		}
+		&._svg {
+			padding-bottom: 50vh;
+		}
+	}
+	&__svg {
+		width: 100%;
+		overflow: visible;
+		.main-line {
+			visibility: hidden;
+		}
+		.line {
+			stroke: currentColor;
+			stroke-width: 2px;
+		}
+		.ball {
+			fill: currentColor;
+			visibility: hidden;
+		}
+		text {
+			stroke: currentColor;
+			fill: currentColor;
+			visibility: hidden;
+		}
+	}
+}

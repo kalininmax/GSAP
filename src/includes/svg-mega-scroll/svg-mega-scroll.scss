@@ -1,0 +1,24 @@
+.svg-mega-scroll {
+	display: flex;
+	overflow: hidden;
+	&__svg-wrapper {
+		display: flex;
+		width: 100%;
+	}
+	&__svg {
+		width: 100%;
+		visibility: hidden;
+		#esa-rope,
+		#small-fishes-right,
+		#small-fishes-left,
+		#small-fishes-left1,
+		#small-fishes-right1,
+		#small-fishes-right2 {
+			visibility: hidden;
+		}
+		#bub-line,
+		#bub-line2 {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{% extends "../templates/base.nunj" %}
+
+{% block title %}Responsive Cards | {{ super() }}{% endblock title %}
+
+{% block content %}
+	{% include "../includes/header/header.nunj" %}
+	{% include "../includes/responsive-cards/responsive-cards.nunj" %}
+	{% include "../includes/back-to-top/back-to-top.nunj" %}
+{% endblock %}

@@ -30,6 +30,10 @@ class GSAP {
 			NavColor: require('../../includes/nav-color/nav-color').default,
 			SlideInPanels: require('../../includes/slide-in-panels/slide-in-panels').default,
 			LayeredPinning: require('../../includes/layered-pinning/layered-pinning').default,
+			SvgMegaScroll: require('../../includes/svg-mega-scroll/svg-mega-scroll').default,
+			TriggerVideo: require('../../includes/trigger-video/trigger-video').default,
+			PathFollower: require('../../includes/path-follower/path-follower').default,
+			ResponsiveCards: require('../../includes/responsive-cards/responsive-cards').default,
 		};
 		this.helpers = {};
 		this.modules = {

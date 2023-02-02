@@ -1,6 +1,6 @@
 {% extends "../templates/base.nunj" %}
 
-{% block title %}Change Nav Color on Scroll  | {{ super() }}{% endblock title %}
+{% block title %}Change Nav Color on Scroll | {{ super() }}{% endblock title %}
 
 {% block content %}
 	{% include "../includes/header/header.nunj" %}

@@ -1,0 +1,9 @@
+{% extends "../templates/base.nunj" %}
+
+{% block title %}SVG Path Follower | {{ super() }}{% endblock title %}
+
+{% block content %}
+	{% include "../includes/header/header.nunj" %}
+	{% include "../includes/path-follower/path-follower.nunj" %}
+	{% include "../includes/back-to-top/back-to-top.nunj" %}
+{% endblock %}

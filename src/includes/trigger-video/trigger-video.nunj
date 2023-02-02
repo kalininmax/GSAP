@@ -1,0 +1,31 @@
+<div class="trigger-video">
+	<section class="trigger-video__section _first">
+		<p>Scroll down to see video</p>
+	</section>
+	<section class="trigger-video__section _text">
+		<p>Repellendus inventore dicta labore, laboriosam sunt libero commodi illo suscipit perferendis tempora omnis non expedita! Temporibus consequatur nesciunt eligendi sit eum, dicta nemo obcaecati iusto aut, exercitationem, repellat a fugit.</p>
+		<p>Maxime repellendus veniam, deleniti quod et, porro odit quidem facere, id provident minima eaque temporibus quos ullam non sequi aperiam? Voluptatum aspernatur perferendis nisi excepturi nesciunt nulla ex earum a.</p>
+		<p>Corporis sequi veritatis similique laboriosam distinctio, tempora rem rerum maiores? Porro unde nesciunt autem distinctio, deleniti itaque, reiciendis repellat magnam nostrum, animi dolores sit dolorum quae ab libero ratione ut.</p>
+		<p>Repellendus inventore dicta labore, laboriosam sunt libero commodi illo suscipit perferendis tempora omnis non expedita! Temporibus consequatur nesciunt eligendi sit eum, dicta nemo obcaecati iusto aut, exercitationem, repellat a fugit.</p>
+		<p>Maxime repellendus veniam, deleniti quod et, porro odit quidem facere, id provident minima eaque temporibus quos ullam non sequi aperiam? Voluptatum aspernatur perferendis nisi excepturi nesciunt nulla ex earum a.</p>
+		<p>Corporis sequi veritatis similique laboriosam distinctio, tempora rem rerum maiores? Porro unde nesciunt autem distinctio, deleniti itaque, reiciendis repellat magnam nostrum, animi dolores sit dolorum quae ab libero ratione ut.</p>
+	</section>
+	<section class="trigger-video__section _video">
+		<p>Let's go surfin' now</p>
+		<p>Everybody's learnin' how</p>
+		<video class="trigger-video__video" width="600" height="316" playsinline loop controls muted>
+			<source src="/assets/images/scroll-trigger/surf.mp4" type="video/mp4">
+		</video>
+	</section>
+	<section class="trigger-video__section _text">
+		<p>Repellendus inventore dicta labore, laboriosam sunt libero commodi illo suscipit perferendis tempora omnis non expedita! Temporibus consequatur nesciunt eligendi sit eum, dicta nemo obcaecati iusto aut, exercitationem, repellat a fugit.</p>
+		<p>Maxime repellendus veniam, deleniti quod et, porro odit quidem facere, id provident minima eaque temporibus quos ullam non sequi aperiam? Voluptatum aspernatur perferendis nisi excepturi nesciunt nulla ex earum a.</p>
+		<p>Corporis sequi veritatis similique laboriosam distinctio, tempora rem rerum maiores? Porro unde nesciunt autem distinctio, deleniti itaque, reiciendis repellat magnam nostrum, animi dolores sit dolorum quae ab libero ratione ut.</p>
+		<p>Repellendus inventore dicta labore, laboriosam sunt libero commodi illo suscipit perferendis tempora omnis non expedita! Temporibus consequatur nesciunt eligendi sit eum, dicta nemo obcaecati iusto aut, exercitationem, repellat a fugit.</p>
+		<p>Maxime repellendus veniam, deleniti quod et, porro odit quidem facere, id provident minima eaque temporibus quos ullam non sequi aperiam? Voluptatum aspernatur perferendis nisi excepturi nesciunt nulla ex earum a.</p>
+		<p>Corporis sequi veritatis similique laboriosam distinctio, tempora rem rerum maiores? Porro unde nesciunt autem distinctio, deleniti itaque, reiciendis repellat magnam nostrum, animi dolores sit dolorum quae ab libero ratione ut.</p>
+	</section>
+	<section class="trigger-video__section _last">
+		<p>Last section on the page</p>
+	</section>
+</div>

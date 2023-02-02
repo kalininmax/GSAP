@@ -1,0 +1,22 @@
+<div class="path-follower">
+	<section class="path-follower__section _first">
+		<p>Scoll-Driven<br> SVG Path Follower</p>
+	</section>
+	<section class="path-follower__section _svg">
+		<svg class="path-follower__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1200">
+			<path d="M10 200h590" class="line01 line"/>
+			<path d="M10 400h590" class="line02 line"/>
+			<path d="M10 600h590" class="line03 line"/>
+			<path d="M10 800h590" class="line04 line"/>
+			<path d="M10 1000h590" class="line05 line"/>
+			<text x="30" y="190" class="text01">2021</text>
+			<text x="30" y="390" class="text02">2022</text>
+			<text x="30" y="590" class="text03">2023</text>
+			<path fill="none" stroke="#fff" stroke-width="10" d="M-5 0q455 230 305 450T130 750q-30 100 170 250t-150 200" class="main-line"/>
+			<circle cx="50" cy="100" r="20" class="ball ball01"/>
+			<circle cx="278" cy="201" r="20" class="ball ball02"/>
+			<circle cx="327" cy="401" r="20" class="ball ball03"/>
+			<circle cx="203" cy="601" r="20" class="ball ball04"/>
+		</svg>
+	</section>
+</div>

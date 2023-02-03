@@ -1,0 +1,21 @@
+<div class="steps-ease">
+	<div class="steps-ease__container">
+		<div class="steps-ease__img-wrapper">
+			<img src="/assets/images/eases/ferrari/1.webp" width="1200" height="900" alt="">
+			<img src="/assets/images/eases/ferrari/2.webp" width="1200" height="900" alt="">
+			<img src="/assets/images/eases/ferrari/3.webp" width="1200" height="900" alt="">
+			<img src="/assets/images/eases/ferrari/4.webp" width="1200" height="900" alt="">
+			<img src="/assets/images/eases/ferrari/5.webp" width="1200" height="900" alt="">
+			<img src="/assets/images/eases/ferrari/6.webp" width="1200" height="900" alt="">
+			<img src="/assets/images/eases/ferrari/7.webp" width="1200" height="900" alt="">
+			<img src="/assets/images/eases/ferrari/8.webp" width="1200" height="900" alt="">
+			<img src="/assets/images/eases/ferrari/9.webp" width="1200" height="900" alt="">
+			<img src="/assets/images/eases/ferrari/10.webp" width="1200" height="900" alt="">
+			<img src="/assets/images/eases/ferrari/11.webp" width="1200" height="900" alt="">
+			<img src="/assets/images/eases/ferrari/12.webp" width="1200" height="900" alt="">
+			<img src="/assets/images/eases/ferrari/13.webp" width="1200" height="900" alt="">
+			<img src="/assets/images/eases/ferrari/14.webp" width="1200" height="900" alt="">
+		</div>
+	</div>
+	<input class="steps-ease__progress-slider" type="range" min="0" max="1" value="0" step="0.01">
+</div>

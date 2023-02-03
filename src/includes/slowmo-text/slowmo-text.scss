@@ -1,0 +1,18 @@
+.slowmo-text {
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - 75px);
+	text-align: center;
+	h1 {
+		display: grid;
+		visibility: hidden;
+		font-size: 7vmin;
+		font-weight: 400;
+		> * {
+			grid-area: 1/1;
+		}
+	}
+}

@@ -18,6 +18,9 @@
 				grid-area: 1/1;
 			}
 		}
+		&._first {
+			height: calc(100vh - 75px);
+		}
 	}
 	&__scroll-down {
 		margin-top: auto;
@@ -29,6 +32,9 @@
 		padding: 2rem;
 		row-gap: 2rem;
 		overflow: hidden;
+		@media (max-width: 600px) {
+			row-gap: 4rem;
+		}
 	}
 	&__item {
 		display: flex;
@@ -44,6 +50,16 @@
 		}
 		& > * {
 			width: 50%;
+		}
+		@media (max-width: 600px) {
+			flex-direction: column !important;
+			row-gap: 1rem;
+			& > * {
+				width: 100%;
+			}
+			img {
+				height: 280px;
+			}
 		}
 	}
 	&__item-title {

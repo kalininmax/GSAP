@@ -21,7 +21,7 @@
 			flex-shrink: 0;
 			> ul {
 				position: absolute;
-				visibility: hidden;
+				display: none;
 				top: 100%;
 				left: 0;
 				padding: 10px 0;
@@ -37,8 +37,17 @@
 				text-decoration: underline;
 				&:hover {
 					> ul {
-						visibility: visible;
+						display: block;
 					}
+				}
+			}
+		}
+		@media (max-width: 767px) {
+			li {
+				position: static;
+				> ul {
+					top: calc(100% - 24px);
+					width: 100%;
 				}
 			}
 		}

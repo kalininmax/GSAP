@@ -26,6 +26,14 @@
 						<li><a href="/responsive-cards.html">Responsive Cards</a></li>
 					</ul>
 				</li>
+				<li class="submenu">Special Eases
+					<ul>
+						<li><a href="/slowmo-text.html">In Your Face Effect</a></li>
+						<li><a href="/world-around-text.html">World Around Effect</a></li>
+						<li><a href="/scary-flicker.html">Scary Flicker</a></li>
+						<li><a href="/steps-ease.html">Steps ease</a></li>
+					</ul>
+				</li>
 			</ul>
 		</nav>
 	</div>

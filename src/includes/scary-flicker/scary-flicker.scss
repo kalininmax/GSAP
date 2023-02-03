@@ -1,0 +1,30 @@
+.scary-flicker {
+	position: relative;
+	display: flex;
+	box-sizing: border-box;
+	height: calc(100vh - 75px);
+	overflow: hidden;
+	background-color: #131313;
+	&:not(:last-child) {
+		border-bottom: 1px solid white;
+	}
+	h1 {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin: auto;
+		font-size: 20vmin;
+		line-height: 1;
+		text-align: center;
+		visibility: hidden;
+		text-transform: uppercase;
+		font-family: cursive;
+		font-family: 'Creepster', cursive;
+		user-select: none;
+	}
+	p {
+		position: absolute;
+		bottom: 2%;
+		right: 2%;
+	}
+}

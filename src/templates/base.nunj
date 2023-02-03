@@ -9,6 +9,8 @@
 
 		{{ headScripts() }}
 
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Creepster&display=swap">
+
 		{% block stylesheets %}
 			<link rel="stylesheet" href="assets/css/styles.css?hash" />
 		{% endblock stylesheets %}

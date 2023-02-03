@@ -6,7 +6,7 @@
 	<section class="responsive-cards__section">
 		<ul class="responsive-cards__list">
 			<li class="responsive-cards__item">
-				<div class="responsive-cards__item-col">
+				<div class="responsive-cards__item-col _img">
 					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
 				</div>
 				<div class="responsive-cards__item-col">
@@ -15,7 +15,7 @@
 				</div>
 			</li>
 			<li class="responsive-cards__item">
-				<div class="responsive-cards__item-col">
+				<div class="responsive-cards__item-col _img">
 					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
 				</div>
 				<div class="responsive-cards__item-col">
@@ -24,7 +24,7 @@
 				</div>
 			</li>
 			<li class="responsive-cards__item">
-				<div class="responsive-cards__item-col">
+				<div class="responsive-cards__item-col _img">
 					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
 				</div>
 				<div class="responsive-cards__item-col">
@@ -33,7 +33,7 @@
 				</div>
 			</li>
 			<li class="responsive-cards__item">
-				<div class="responsive-cards__item-col">
+				<div class="responsive-cards__item-col _img">
 					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
 				</div>
 				<div class="responsive-cards__item-col">
@@ -42,7 +42,7 @@
 				</div>
 			</li>
 			<li class="responsive-cards__item">
-				<div class="responsive-cards__item-col">
+				<div class="responsive-cards__item-col _img">
 					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
 				</div>
 				<div class="responsive-cards__item-col">
@@ -51,7 +51,7 @@
 				</div>
 			</li>
 			<li class="responsive-cards__item">
-				<div class="responsive-cards__item-col">
+				<div class="responsive-cards__item-col _img">
 					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
 				</div>
 				<div class="responsive-cards__item-col">
@@ -60,7 +60,7 @@
 				</div>
 			</li>
 			<li class="responsive-cards__item">
-				<div class="responsive-cards__item-col">
+				<div class="responsive-cards__item-col _img">
 					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
 				</div>
 				<div class="responsive-cards__item-col">
@@ -69,7 +69,7 @@
 				</div>
 			</li>
 			<li class="responsive-cards__item">
-				<div class="responsive-cards__item-col">
+				<div class="responsive-cards__item-col _img">
 					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
 				</div>
 				<div class="responsive-cards__item-col">
@@ -78,7 +78,7 @@
 				</div>
 			</li>
 			<li class="responsive-cards__item">
-				<div class="responsive-cards__item-col">
+				<div class="responsive-cards__item-col _img">
 					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
 				</div>
 				<div class="responsive-cards__item-col">
@@ -87,7 +87,7 @@
 				</div>
 			</li>
 			<li class="responsive-cards__item">
-				<div class="responsive-cards__item-col">
+				<div class="responsive-cards__item-col _img">
 					<img class="responsive-cards__item-img" src="/assets/images/scroll-trigger/ozark-hills.webp" width="1200" height="798" alt="">
 				</div>
 				<div class="responsive-cards__item-col">

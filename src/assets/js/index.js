@@ -1,9 +1,11 @@
 import { gsap } from 'gsap';
 import { MotionPathPlugin } from 'gsap/MotionPathPlugin';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { SlowMo, RoughEase } from 'gsap/EasePack';
 
 gsap.registerPlugin(MotionPathPlugin);
 gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(SlowMo, RoughEase);
 
 // global.gsap = gsap;
 
@@ -34,6 +36,10 @@ class GSAP {
 			TriggerVideo: require('../../includes/trigger-video/trigger-video').default,
 			PathFollower: require('../../includes/path-follower/path-follower').default,
 			ResponsiveCards: require('../../includes/responsive-cards/responsive-cards').default,
+			SlowMoText: require('../../includes/slowmo-text/slowmo-text').default,
+			WorldAroundText: require('../../includes/world-around-text/world-around-text').default,
+			ScaryFlicker: require('../../includes/scary-flicker/scary-flicker').default,
+			StepsEase: require('../../includes/steps-ease/steps-ease').default,
 		};
 		this.helpers = {};
 		this.modules = {

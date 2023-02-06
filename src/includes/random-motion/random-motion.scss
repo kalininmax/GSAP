@@ -1,0 +1,40 @@
+.random-motion {
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+	&__container {
+		position: relative;
+		width: 80vmin;
+		height: 80vmin;
+		background-color: black;
+	}
+	.bug {
+		position: absolute;
+		width: 4vmin;
+		height: 4vmin;
+		border-radius: 50%;
+		box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.19);
+		&::after,
+		&::before {
+			content: '';
+			position: absolute;
+			width: 20%;
+			height: 20%;
+			background: white;
+			border-radius: 50%;
+			transform: translate(-50%, -50%);
+		}
+		&::after {
+			left: 70%;
+			top: 35%;
+		}
+		&::before {
+			left: 70%;
+			top: 65%;
+		}
+		&.pink {
+			background: #f6c;
+		}
+	}
+}

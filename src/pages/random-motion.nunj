@@ -1,0 +1,8 @@
+{% extends "../templates/base.nunj" %}
+
+{% block title %}Random Motion | {{ super() }}{% endblock title %}
+
+{% block content %}
+	{% include "../includes/header/header.nunj" %}
+	{% include "../includes/random-motion/random-motion.nunj" %}
+{% endblock %}

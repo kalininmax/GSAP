@@ -1,0 +1,36 @@
+.snowflakes {
+	position: relative;
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	padding: 2rem;
+	font-size: max(3vmin, 1rem);
+	text-shadow: 4px 4px 4px rgb(0, 0, 0, 0.3);
+	background: linear-gradient(to right, #93291e, #ed213a);
+	overflow: hidden;
+	user-select: none;
+
+	.flake {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100px;
+		height: 100px;
+		background-size: cover;
+		&._flake1 {
+			background-image: url(/assets/images/flakes/flake1.svg);
+		}
+
+		&._flake2 {
+			background-image: url(/assets/images/flakes/flake2.svg);
+		}
+
+		&._flake3 {
+			background-image: url(/assets/images/flakes/flake3.svg);
+		}
+
+		&._flake4 {
+			background-image: url(/assets/images/flakes/flake4.svg);
+		}
+	}
+}

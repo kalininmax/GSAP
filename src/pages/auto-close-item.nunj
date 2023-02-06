@@ -1,0 +1,8 @@
+{% extends "../templates/base.nunj" %}
+
+{% block title %}Auto Close Item | {{ super() }}{% endblock title %}
+
+{% block content %}
+	{% include "../includes/header/header.nunj" %}
+	{% include "../includes/auto-close-item/auto-close-item.nunj" %}
+{% endblock %}

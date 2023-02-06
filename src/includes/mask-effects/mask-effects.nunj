@@ -1,0 +1,26 @@
+<div class="mask-effects">
+	<p class="mask-effects__info">Click to play animation</p>
+	<div class="mask-effects__container">
+		<div class="mask-effects__title-wrapper">
+			<p class="mask-effects__title">CreativeCodingClub.com</p>
+		</div>
+		<div class="mask-effects__subtitle-wrapper">
+			<p class="mask-effects__subtitle">Discover the joy of animating with code</p>
+		</div>
+	</div>
+	<div class="mask-effects__container">
+		<div class="mask-effects__title-wrapper">
+			<p class="mask-effects__title">CreativeCodingClub.com</p>
+		</div>
+		<div class="mask-effects__subtitle-wrapper">
+			<p class="mask-effects__subtitle">Discover the joy of animating with code</p>
+		</div>
+	</div>
+	<div class="mask-effects__container _new-year">
+		<p class="mask-effects__title _new-year">Happy New Year</p>
+	</div>
+	<div class="mask-effects__container _new-year-layered">
+		<p class="mask-effects__title _new-year-bg">Happy New Year</p>
+		<p class="mask-effects__title _new-year">Happy New Year</p>
+	</div>
+</div>

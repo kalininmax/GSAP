@@ -40,6 +40,13 @@ class GSAP {
 			WorldAroundText: require('../../includes/world-around-text/world-around-text').default,
 			ScaryFlicker: require('../../includes/scary-flicker/scary-flicker').default,
 			StepsEase: require('../../includes/steps-ease/steps-ease').default,
+			LaziestSlider: require('../../includes/laziest-slider/laziest-slider').default,
+			LeaveTrails: require('../../includes/leave-trails/leave-trails').default,
+			RandomMotion: require('../../includes/random-motion/random-motion').default,
+			Counters: require('../../includes/counters/counters').default,
+			AutoCloseItem: require('../../includes/auto-close-item/auto-close-item').default,
+			Snowflakes: require('../../includes/snowflakes/snowflakes').default,
+			MaskEffects: require('../../includes/mask-effects/mask-effects').default,
 		};
 		this.helpers = {};
 		this.modules = {

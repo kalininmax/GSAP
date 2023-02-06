@@ -1,0 +1,64 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100">
+<defs>
+<path id="arm1_0_Layer0_0_1_STROKES" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="3" fill="none" d="
+M -11 -3.4
+L -0.1 5.8 -0.1 -1.4 -10.6 -10.6
+M 8.4 -17.6
+L -0.1 -9.4 -0.1 -1.4 11.6 -12.2
+M -7.8 -16.8
+L -0.1 -9.4 -0.1 -21.4
+M -0.1 5.8
+L -0.1 7.8 12.4 -4.2
+M -0.1 7.8
+L -0.1 29.85"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 50.1,26) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#arm1_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, -1, 50.1,74) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#arm1_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( 0, 1, -1, 0, 74,50.1) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#arm1_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( 0, 1, 1, 0, 26,50.1) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#arm1_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( 0.3971405029296875, 0.397125244140625, -0.397125244140625, 0.3971405029296875, 59.5,40.45) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#arm1_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( 0.3971405029296875, 0.397125244140625, 0.397125244140625, -0.3971405029296875, 40.45,59.5) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#arm1_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( -0.397125244140625, 0.3971405029296875, -0.3971405029296875, -0.397125244140625, 59.4,59.5) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#arm1_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( -0.397125244140625, 0.3971405029296875, 0.3971405029296875, 0.397125244140625, 40.35,40.45) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#arm1_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+</svg>

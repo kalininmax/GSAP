@@ -1,0 +1,7 @@
+<div class="laziest-slider">
+	<section class="laziest-slider__slide">Section One</section>
+	<section class="laziest-slider__slide">Section Two</section>
+	<section class="laziest-slider__slide">Section Three</section>
+	<section class="laziest-slider__slide">Section Four</section>
+	<section class="laziest-slider__slide">Section Five</section>
+</div>

@@ -1,0 +1,8 @@
+{% extends "../templates/base.nunj" %}
+
+{% block title %}Snowflakes Animation | {{ super() }}{% endblock title %}
+
+{% block content %}
+	{% include "../includes/header/header.nunj" %}
+	{% include "../includes/snowflakes/snowflakes.nunj" %}
+{% endblock %}

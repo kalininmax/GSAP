@@ -1,0 +1,8 @@
+{% extends "../templates/base.nunj" %}
+
+{% block title %}Mask Effects | {{ super() }}{% endblock title %}
+
+{% block content %}
+	{% include "../includes/header/header.nunj" %}
+	{% include "../includes/mask-effects/mask-effects.nunj" %}
+{% endblock %}

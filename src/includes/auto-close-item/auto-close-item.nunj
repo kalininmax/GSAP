@@ -1,0 +1,16 @@
+<div class="auto-close-item">
+	<ul class="auto-close-item__list">
+		<li class="auto-close-item__item">
+			<button class="auto-close-item__open" type="button" aria-label="Open"></button>
+			<button class="auto-close-item__close" type="button" aria-label="Close">X</button>
+		</li>
+		<li class="auto-close-item__item">
+			<button class="auto-close-item__open" type="button" aria-label="Open"></button>
+			<button class="auto-close-item__close" type="button" aria-label="Close">X</button>
+		</li>
+		<li class="auto-close-item__item">
+			<button class="auto-close-item__open" type="button" aria-label="Open"></button>
+			<button class="auto-close-item__close" type="button" aria-label="Close">X</button>
+		</li>
+	</ul>
+</div>

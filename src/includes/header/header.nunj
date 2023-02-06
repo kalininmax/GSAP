@@ -34,6 +34,17 @@
 						<li><a href="/steps-ease.html">Steps ease</a></li>
 					</ul>
 				</li>
+				<li class="submenu">Weekly Lessons
+					<ul>
+						<li><a href="/laziest-slider.html">Laziest Slider</a></li>
+						<li><a href="/leave-trails.html">Leave Trails</a></li>
+						<li><a href="/random-motion.html">Random Motion</a></li>
+						<li><a href="/counters.html">Counter Effect</a></li>
+						<li><a href="/auto-close-item.html">Auto Close Item</a></li>
+						<li><a href="/snowflakes.html">Snowflakes Animation</a></li>
+						<li><a href="/mask-effects.html">Mask Effects</a></li>
+					</ul>
+				</li>
 			</ul>
 		</nav>
 	</div>

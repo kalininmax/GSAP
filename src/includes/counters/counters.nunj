@@ -1,0 +1,7 @@
+<div class="counters">
+	<ul class="counters__list">
+		<li><span class="counters__number _courses">16</span> courses</li>
+		<li><span class="counters__number _lessons">110</span> lessons</li>
+		<li><span class="counters__number _students">1,860</span> students</li>
+	</ul>
+</div>

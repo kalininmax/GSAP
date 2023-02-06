@@ -7,17 +7,17 @@
 		flex-direction: column;
 		width: 100%;
 		margin: auto;
-		font-size: 8vmin;
+		font-size: 10vmin;
 		line-height: 1;
 		text-align: center;
 		visibility: hidden;
 		span:nth-child(1) {
 			font-family: monospace;
-			font-size: 12vmin;
+			font-size: 14vmin;
 			span {
 				position: relative;
 				top: 0.05em;
-				font-size: 15vmin;
+				font-size: 17vmin;
 				color: #79b51c;
 				font-style: italic;
 			}

@@ -9,13 +9,10 @@
 	h1 {
 		display: grid;
 		visibility: hidden;
-		font-size: 17vmin;
+		font-size: 9vmin;
 		font-weight: 400;
 		> * {
 			grid-area: 1/1;
-		}
-		.word {
-			will-change: scale;
 		}
 	}
 }

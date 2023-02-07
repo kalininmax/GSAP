@@ -1,0 +1,8 @@
+{% extends "../templates/base.nunj" %}
+
+{% block title %}Burn in Gallery | {{ super() }}{% endblock title %}
+
+{% block content %}
+	{% include "../includes/header/header.nunj" %}
+	{% include "../includes/burnin-gallery/burnin-gallery.nunj" %}
+{% endblock %}

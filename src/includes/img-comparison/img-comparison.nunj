@@ -1,0 +1,7 @@
+<div class="img-comparison">
+	<div class="img-comparison__container">
+		<img src="/assets/images/burnin-gallery/1.webp">
+		<img src="/assets/images/burnin-gallery/1.webp">
+		<button type="button"></button>
+	</div>
+</div>

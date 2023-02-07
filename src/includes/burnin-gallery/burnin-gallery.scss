@@ -1,0 +1,19 @@
+.burnin-gallery {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__container {
+		display: grid;
+		width: 95vmin;
+		height: 60vmin;
+		visibility: hidden;
+		box-shadow: 0 2px 20px 5px rgba(#000, 0.4);
+		img {
+			grid-area: 1/1;
+			width: 95vmin;
+			height: 60vmin;
+			object-fit: cover;
+		}
+	}
+}

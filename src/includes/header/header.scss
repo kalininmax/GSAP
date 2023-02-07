@@ -36,6 +36,7 @@
 			&.submenu {
 				text-decoration: underline;
 				&:hover {
+					text-decoration: none;
 					> ul {
 						display: block;
 					}

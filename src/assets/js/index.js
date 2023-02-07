@@ -1,11 +1,10 @@
 import { gsap } from 'gsap';
 import { MotionPathPlugin } from 'gsap/MotionPathPlugin';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { Draggable } from 'gsap/Draggable';
 import { SlowMo, RoughEase } from 'gsap/EasePack';
 
-gsap.registerPlugin(MotionPathPlugin);
-gsap.registerPlugin(ScrollTrigger);
-gsap.registerPlugin(SlowMo, RoughEase);
+gsap.registerPlugin(MotionPathPlugin, ScrollTrigger, Draggable, SlowMo, RoughEase);
 
 // global.gsap = gsap;
 
@@ -47,6 +46,10 @@ class GSAP {
 			AutoCloseItem: require('../../includes/auto-close-item/auto-close-item').default,
 			Snowflakes: require('../../includes/snowflakes/snowflakes').default,
 			MaskEffects: require('../../includes/mask-effects/mask-effects').default,
+			MaskImage: require('../../includes/mask-image/mask-image').default,
+			CardFlip: require('../../includes/card-flip/card-flip').default,
+			BurnInGallery: require('../../includes/burnin-gallery/burnin-gallery').default,
+			ImgComparison: require('../../includes/img-comparison/img-comparison').default,
 		};
 		this.helpers = {};
 		this.modules = {

@@ -1,0 +1,10 @@
+<div class="mask-image">
+	<div class="mask-image__container">
+		<div class="mask-image__img-mask">
+			<img src="/assets/images/vs-bus.jpg" width="800" height="800" alt="">
+		</div>
+		<div class="mask-image__img-mask">
+			<img src="/assets/images/vs-bus-interior.jpg" width="1000" height="750" alt="">
+		</div>
+	</div>
+</div>

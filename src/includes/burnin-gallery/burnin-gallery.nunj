@@ -1,0 +1,10 @@
+<div class="burnin-gallery">
+	<div class="burnin-gallery__container">
+		<img src="/assets/images/burnin-gallery/1.webp">
+		<img src="/assets/images/burnin-gallery/2.webp">
+		<img src="/assets/images/burnin-gallery/3.webp">
+		<img src="/assets/images/burnin-gallery/4.webp">
+		<img src="/assets/images/burnin-gallery/5.webp">
+		<img src="/assets/images/burnin-gallery/6.webp">
+	</div>
+</div>

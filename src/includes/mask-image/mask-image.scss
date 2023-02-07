@@ -1,0 +1,34 @@
+.mask-image {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__container {
+		display: grid;
+		box-sizing: border-box;
+		width: 85vmin;
+		height: 85vmin;
+		padding: max(4vmin, 2rem);
+		background-color: papayawhip;
+		overflow: hidden;
+	}
+	&__img-mask {
+		grid-area: 1/1;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		&:nth-child(1) {
+			clip-path: polygon(30% 30%, 70% 30%, 70% 70%, 30% 70%);
+			will-change: clip-path;
+		}
+		&:not(:first-child) {
+			visibility: hidden;
+		}
+		img {
+			width: 77vmin;
+			height: 77vmin;
+			object-fit: cover;
+			will-change: transform;
+		}
+	}
+}

@@ -1,0 +1,31 @@
+.ferris-wheel {
+	flex-grow: 1;
+	display: grid;
+	background-color: #1d1d1d;
+	overflow: hidden;
+	&__wheel {
+		position: relative;
+		box-sizing: border-box;
+		width: 400px;
+		height: 400px;
+		margin: auto;
+		border-radius: 50%;
+		border: 4px solid #999;
+		visibility: hidden;
+
+		.basket {
+			position: absolute;
+			width: 80px;
+			height: 78px;
+			background-image: url(/assets/images/ferris-basket.png);
+		}
+		.arm {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 100px;
+			height: 4px;
+			background: #999;
+		}
+	}
+}

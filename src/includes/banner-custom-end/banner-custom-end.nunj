@@ -1,0 +1,23 @@
+<div class="banner-custom-end">
+	<div class="banner-custom-end__container">
+		<p class="title">Do you love shapes?</p>
+		<div class="shapes">
+			<div class="item">
+				<div class="shape circle"></div>
+				<p>circle</p>
+			</div>
+			<div class="item">
+				<div class="shape square">
+				</div>
+				<p>square</p>
+			</div>
+			<div class="item">
+				<div class="shape triangle"></div>
+				<p>triangle</p>
+			</div>
+		</div>
+		<div class="footer">
+			<p>visit allshapes.com</p>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,37 @@
+<div class="vert-text-gradient">
+	<div class="vert-text-gradient__intro">Scroll Down</div>
+	<div class="vert-text-gradient__container _colors">
+		<h2>GSAP 3 Express</h2>
+		<p>The ultimate beginner's course designed to get you up and running with GSAP's most popular features quickly.</p>
+		<p>Start your Free Trial today for a risk-free taste of my most popular course.</p>
+
+		<h2>GSAP 3 Beyond the Basics</h2>
+		<p>Learn features of the API the pros rely on to take their animations to the next level with precision timing, control, and flexibility.</p>
+
+		<h2>B-Sides, Bonuses, and Oddities</h2>
+		<p>Premium tutorials and demos that go beyond the fundamentals of the other courses. This is where we truly get creative with our code.</p>
+
+		<h2>ScrollTrigger Express</h2>
+		<p>Learn the many ways you can control your GreenSock animations with ScrollTrigger. Create awesome parallax effects, scrub through timelines, and trigger animations as they enter the viewport.</p>
+
+		<h2>Special Eases</h2>
+		<p>An ease can dramatically change the feel of an animation. Learn how GreenSock's proprietary eases (CustomEase, SlowMo, RoughEase) can drive truly unique and complex animation effects.</p>
+	</div>
+	<div class="vert-text-gradient__container _white">
+		<h2>GSAP 3 Express</h2>
+		<p>The ultimate beginner's course designed to get you up and running with GSAP's most popular features quickly.</p>
+		<p>Start your Free Trial today for a risk-free taste of my most popular course.</p>
+
+		<h2>GSAP 3 Beyond the Basics</h2>
+		<p>Learn features of the API the pros rely on to take their animations to the next level with precision timing, control, and flexibility.</p>
+
+		<h2>B-Sides, Bonuses, and Oddities</h2>
+		<p>Premium tutorials and demos that go beyond the fundamentals of the other courses. This is where we truly get creative with our code.</p>
+
+		<h2>ScrollTrigger Express</h2>
+		<p>Learn the many ways you can control your GreenSock animations with ScrollTrigger. Create awesome parallax effects, scrub through timelines, and trigger animations as they enter the viewport.</p>
+
+		<h2>Special Eases</h2>
+		<p>An ease can dramatically change the feel of an animation. Learn how GreenSock's proprietary eases (CustomEase, SlowMo, RoughEase) can drive truly unique and complex animation effects.</p>
+	</div>
+</div>

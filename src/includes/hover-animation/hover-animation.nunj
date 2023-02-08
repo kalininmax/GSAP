@@ -1,0 +1,8 @@
+<div class="hover-animation">
+	<button class="button _rect" type="button">
+		<span class="button__text">Button</span>
+	</button>
+	<button class="button _circle" type="button">
+		<span class="button__text">Button</span>
+	</button>
+</div>

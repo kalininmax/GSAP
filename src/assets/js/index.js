@@ -50,6 +50,10 @@ class GSAP {
 			CardFlip: require('../../includes/card-flip/card-flip').default,
 			BurnInGallery: require('../../includes/burnin-gallery/burnin-gallery').default,
 			ImgComparison: require('../../includes/img-comparison/img-comparison').default,
+			VertTextGradient: require('../../includes/vert-text-gradient/vert-text-gradient').default,
+			HoverAnimation: require('../../includes/hover-animation/hover-animation').default,
+			FerrisWheel: require('../../includes/ferris-wheel/ferris-wheel').default,
+			BannerCustomEnd: require('../../includes/banner-custom-end/banner-custom-end').default,
 		};
 		this.helpers = {};
 		this.modules = {

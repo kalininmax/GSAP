@@ -1,0 +1,64 @@
+.hover-animation {
+	flex-grow: 1;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	gap: 3rem 9rem;
+	padding: 2rem;
+	background-color: #1d1d1d;
+	.button {
+		position: relative;
+		font-size: 2rem;
+		border: 0;
+		color: currentColor;
+		background-color: #06c;
+		&__text {
+			position: relative;
+			z-index: 2;
+			text-shadow: 1px 1px 2px #333;
+		}
+		&._rect {
+			padding: 20px 60px;
+			overflow: hidden;
+			.bar {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: darken(orange, 5);
+				visibility: hidden;
+				will-change: transform;
+			}
+		}
+		&._circle {
+			width: 7rem;
+			height: 7rem;
+			padding: 0;
+			border-radius: 50%;
+			font-size: 1.8rem;
+			.circles-container {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				span {
+					display: block;
+				}
+			}
+			.circle {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				background: orange;
+				visibility: hidden;
+			}
+		}
+	}
+}

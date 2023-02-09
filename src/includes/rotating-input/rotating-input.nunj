@@ -1,0 +1,14 @@
+<div class="rotating-input">
+	<div class="rotating-input__col">
+		<p class="rotating-input__output">255</p>
+		<button class="button _red" type="button"><span>↑</span></button>
+	</div>
+	<div class="rotating-input__col">
+		<p class="rotating-input__output">255</p>
+		<button class="button _green" type="button"><span>↑</span></button>
+	</div>
+	<div class="rotating-input__col">
+		<p class="rotating-input__output">255</p>
+		<button class="button _blue" type="button"><span>↑</span></button>
+	</div>
+</div>

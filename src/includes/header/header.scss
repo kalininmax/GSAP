@@ -27,6 +27,9 @@
 				padding: 10px 0;
 				background-color: var(--bg-color);
 				box-shadow: 0 2px 5px rgba(black, 0.3);
+				max-height: 70vh;
+				overflow-x: hidden;
+				overflow-y: auto;
 				li {
 					width: max-content;
 					padding: 5px;
@@ -47,7 +50,7 @@
 			li {
 				position: static;
 				> ul {
-					top: calc(100% - 24px);
+					top: calc(100% - 16px);
 					width: 100%;
 				}
 			}

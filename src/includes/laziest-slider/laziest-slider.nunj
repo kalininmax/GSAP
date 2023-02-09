@@ -1,7 +1,37 @@
 <div class="laziest-slider">
-	<section class="laziest-slider__slide">Section One</section>
-	<section class="laziest-slider__slide">Section Two</section>
-	<section class="laziest-slider__slide">Section Three</section>
-	<section class="laziest-slider__slide">Section Four</section>
-	<section class="laziest-slider__slide">Section Five</section>
+	<div class="laziest-slider__container">
+		<section class="laziest-slider__slide">
+			<img src="/assets/images/burnin-gallery/2.webp">
+			<span class="laziest-slider__slide-number">1</span>
+		</section>
+		<section class="laziest-slider__slide">
+			<img src="/assets/images/burnin-gallery/3.webp">
+			<span class="laziest-slider__slide-number">2</span>
+		</section>
+		<section class="laziest-slider__slide">
+			<img src="/assets/images/burnin-gallery/4.webp">
+			<span class="laziest-slider__slide-number">3</span>
+		</section>
+		<section class="laziest-slider__slide">
+			<img src="/assets/images/burnin-gallery/5.webp">
+			<span class="laziest-slider__slide-number">4</span>
+		</section>
+		<ul class="laziest-slider__dots">
+			<li><button class="laziest-slider__dot" type="button" aria-label="1"></button></li>
+			<li><button class="laziest-slider__dot" type="button" aria-label="2"></button></li>
+			<li><button class="laziest-slider__dot" type="button" aria-label="3"></button></li>
+			<li><button class="laziest-slider__dot" type="button" aria-label="4"></button></li>
+		</ul>
+		<div class="laziest-slider__progress">
+			<div class="laziest-slider__progress-bar"></div>
+		</div>
+	</div>
+	<div class="laziest-slider__controls">
+		<button class="button _prev" type="button">Prev</button>
+		<button class="button _next" type="button">Next</button>
+		<label class="laziest-slider__checkbox-label">
+			<input class="laziest-slider__checkbox" type="checkbox" name="autoplay">
+			Autoplay
+		</label>
+	</div>
 </div>

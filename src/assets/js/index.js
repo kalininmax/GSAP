@@ -54,6 +54,8 @@ class GSAP {
 			HoverAnimation: require('../../includes/hover-animation/hover-animation').default,
 			FerrisWheel: require('../../includes/ferris-wheel/ferris-wheel').default,
 			BannerCustomEnd: require('../../includes/banner-custom-end/banner-custom-end').default,
+			CreepingAnimation: require('../../includes/creeping-animation/creeping-animation').default,
+			RotatingInput: require('../../includes/rotating-input/rotating-input').default,
 		};
 		this.helpers = {};
 		this.modules = {

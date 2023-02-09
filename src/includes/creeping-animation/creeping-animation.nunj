@@ -1,0 +1,17 @@
+<div class="creeping-animation">
+	<div class="creeping-animation__container _dots">
+		<div class="creeping-animation__dots-wrapper">
+			<div class="creeping-animation__dot"></div>
+			<div class="creeping-animation__dot"></div>
+			<div class="creeping-animation__dot"></div>
+			<div class="creeping-animation__dot"></div>
+			<div class="creeping-animation__dot"></div>
+			<div class="creeping-animation__dot"></div>
+			<div class="creeping-animation__dot"></div>
+			<div class="creeping-animation__dot"></div>
+		</div>
+	</div>
+	<div class="creeping-animation__container _text">
+		<p>Creeping Text</p>
+	</div>
+</div>
